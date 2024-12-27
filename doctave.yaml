@@ -1,0 +1,9 @@
+---
+title: "Tactical Triggernometry Admin Docs"
+
+navigation:
+  - path: docs/README.md
+  - path: docs/admin
+    children: "*"
+  - path: docs/tutorial.md
+  - path: docs/examples.md
