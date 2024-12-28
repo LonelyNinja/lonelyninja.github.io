@@ -1,4 +1,5 @@
 site_name: TT Admin Docs
+site_url: https://lonelyninja.github.io
 theme: 
   name: mkdocs
   highlight_js: true
