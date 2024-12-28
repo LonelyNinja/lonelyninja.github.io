@@ -1,43 +1,31 @@
 ---
-
 title: TT Admin Reference Sheet
-
 ---
 
 # TT Admin Reference Sheet
 
-|Name|Description|Link|
-|----|-----------|----|
-|TT Admin Roster|In case of a melt down|http://tiny.cc/TTadminroster| 
-|Admin Reference Sheet|SquadJS commands and Punishment Matrix|http://tiny.cc/TTreference|
-|#ban-appeals Etiquette/Player Relations Principles|We keep Squad lawyers on retainer to represent you in #ban-appeals.|http://tiny.cc/TT-PR-ban-appeal|
-|Server Rules|The Rules Bible|http://tiny.cc/TTrules| 
-|How to Use Admin Tools|Roles bot, Discord, BattleMetrics and SquadJS|http://tiny.cc/TTAdminTools| 
-|Admin Guidelines|Guidelines on admin roles and conduct|ttp://tiny.cc/ttadminguidelines| 
-|BattleMetrics|RCON panel for the server|https://battlemetrics.com/|
-|PSG Hosting Panel|Server control panel|https://control.psg-hosting.com/|
-
-
-
-```
-Note from Lonely.  The rest is not really formatted.  You get the idea
-```
-
-
+|Name|Description|
+|----|-----------|
+|[TT Admin Roster](http://tiny.cc/TTadminroster)|In case of a melt down|| 
+|[Admin Reference Sheet](./admin/admin_reference.md)|SquadJS commands and Punishment Matrix|
+|[#ban-appeals Etiquette/Player Relations Principles](http://tiny.cc/TT-PR-ban-appeal)|We keep Squad lawyers on retainer to represent you in #ban-appeals.|
+|[Server Rules](./server_rules.md)|The Rules Bible| 
+|[How to Use Admin Tools](./admin/how_to_use_admin_tools.md)|Roles bot, Discord, BattleMetrics and SquadJS| 
+|[Admin Guidelines](./admin/admin_guidelines.md)|Guidelines on admin roles and conduct| 
+|[BattleMetrics](https://battlemetrics.com/)|RCON panel for the server|
+|[PSG Hosting Panel](https://control.psg-hosting.com/)|Server control panel|
 
 # SquadJS Interactions
-
-
 
 The syntax to send commands through admin chat is: `![command] [playername] [reason]`
 
 The [reason] must be more than one word unless you send a shortcut. 
 
-!warn playername unlock will warn a player to unlock their squad with the “unlock” shortcut 
+`!warn playername unlock` will warn a player to unlock their squad with the “unlock” shortcut 
 
-!warn playername stop will return an error message, because there is no “stop” shortcut
+`!warn playername stop` will return an error message, because there is no “stop” shortcut
 
-!warn playername Stop locking your RWS squad, you must unlock will successfully warn a player with the written message
+`!warn playername Stop locking your RWS squad, you must unlock` will successfully warn a player with the written message
 
 Remove spaces in a playername to warn players with spaces. 
 
