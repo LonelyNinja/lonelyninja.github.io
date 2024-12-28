@@ -2,7 +2,8 @@
 title: TT Admin Tools
 --- 
 # TT Admin Tools
-fogWelcome to the TT Admin team in either the full HQ or lite admin role, most of the below applies to both roles with HQ having slightly higher permissions and abilities. This document will go over the basic mechanics and how to’s of getting your admin permissions, how we use discord and its setup, how to get your out of game admin set up on battlemetrics(BM) and how to use BM, how to use SquadJS and what it is and how to use basic admin console commands in game. 
+
+Welcome to the TT Admin team in either the full HQ or lite admin role, most of the below applies to both roles with HQ having slightly higher permissions and abilities. This document will go over the basic mechanics and how to’s of getting your admin permissions, how we use discord and its setup, how to get your out of game admin set up on battlemetrics(BM) and how to use BM, how to use SquadJS and what it is and how to use basic admin console commands in game. 
 
 This guide should cover at least 80% of what you need to know, but in the end nothing beats hands-on learning and one on one assistance. Once you have read over this guide and attempted basic levels of troubleshooting yourself, please reach out and ask for assistance with anything that you don’t understand, isn’t working, not covered or was overlooked by this guide. 
 

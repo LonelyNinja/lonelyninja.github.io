@@ -4,7 +4,7 @@ Title: Index
 
 # TT Administration Index
 
-1. [Server Rules](./server_rules.md)
+1. [Server Rules](./rules/server_rules.md)
 1. [Full Admin Reference](./admin/admin_reference.md)
 1. [TT Admin Tools](./admin/how_to_use_tt_admin_tools.md)
 1. [Layer Voting](./admin/layer_voting.md)

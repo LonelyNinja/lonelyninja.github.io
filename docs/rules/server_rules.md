@@ -1,5 +1,5 @@
 ---
-title: TT Server Rules
+title: TT Server - Full Rules
 ---
 
 # Tactical Triggernometry Squad Server rules

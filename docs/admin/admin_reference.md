@@ -9,7 +9,7 @@ title: TT Admin Reference Sheet
 |[TT Admin Roster](http://tiny.cc/TTadminroster)|In case of a melt down|| 
 |[Admin Reference Sheet](./admin/admin_reference.md)|SquadJS commands and Punishment Matrix|
 |[#ban-appeals Etiquette/Player Relations Principles](http://tiny.cc/TT-PR-ban-appeal)|We keep Squad lawyers on retainer to represent you in #ban-appeals.|
-|[Server Rules](./server_rules.md)|The Rules Bible| 
+|[Server Rules](./rules/server_rules.md)|The Rules Bible| 
 |[How to Use Admin Tools](./admin/how_to_use_admin_tools.md)|Roles bot, Discord, BattleMetrics and SquadJS| 
 |[Admin Guidelines](./admin/admin_guidelines.md)|Guidelines on admin roles and conduct| 
 |[BattleMetrics](https://battlemetrics.com/)|RCON panel for the server|

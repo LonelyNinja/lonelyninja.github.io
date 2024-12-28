@@ -1,4 +1,7 @@
-Layer Voting Server Config & Commands
+---
+title: Layer Voting
+---
+# Layer Voting Server Config & Commands
 
 General Overview
 

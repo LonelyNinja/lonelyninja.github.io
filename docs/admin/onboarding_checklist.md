@@ -17,7 +17,7 @@ This checklist has been designed to be completed in order.
     - [ ] Player versus administrator responsibilities
     - [ ] General responsibilities
     - [ ] Professionalism
-- [ ] Review of the [Tactical Triggernometry Squad Server Rules](../server_rules.md)
+- [ ] Review of the [Tactical Triggernometry Squad Server Rules](../rules/server_rules.md)
 - [ ] Learn to use your new tools
     - [Admin Reference Sheet](./admin_reference.md)
     - [How to use TT Admin Tools](./how_to_use_tt_admin_tools.md)
