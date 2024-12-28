@@ -5,10 +5,7 @@ Title: Index
 # TT Administration Guide Index
 
 1. [Server Rules](./server_rules.md)
-1. [Admin Command Cheatsheet](./admin/cheatsheet.md)
 1. [Full Admin Reference](./admin/admin_reference.md)
-1. [Ban Matrix](./admin/ban_matrix.md)
-1. [Balance Guidelines](./admin/balance_guidelines.md)
 
 # Squad Approved Layers
 

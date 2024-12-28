@@ -1,4 +1,6 @@
 site_name: TT Admin Docs
-theme: mkdocs
-color_mode: auto
-user_color_mode_toggle: true
+theme: 
+  name: mkdocs
+  highlight_js: true
+  color_mode: auto
+  user_color_mode_toggle: true
