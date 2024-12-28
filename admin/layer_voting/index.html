@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://lonelyninja.github.io/admin/layer_voting/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Layer Voting - TT Admin Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">TT Admin Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">TT Administration Index</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Admin</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../admin_guidelines/" class="dropdown-item">TT Admin Guidelines</a>
+</li>
+                                    
+<li>
+    <a href="../admin_lite_guidelines/" class="dropdown-item">TT Admin Lite Guidelines</a>
+</li>
+                                    
+<li>
+    <a href="../admin_reference/" class="dropdown-item">TT Admin Reference Sheet</a>
+</li>
+                                    
+<li>
+    <a href="../how_to_use_tt_admin_tools/" class="dropdown-item">TT Admin Tools</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Layer Voting</a>
+</li>
+                                    
+<li>
+    <a href="../onboarding_checklist/" class="dropdown-item">Admin-Lite Onboarding Checklist</a>
+</li>
+                                    
+<li>
+    <a href="../tt_relations/" class="dropdown-item">TT Relations/#Courthouse Guidelines and Etiquette</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Rules</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../rules/server_rules/" class="dropdown-item">TT Server - Full Rules</a>
+</li>
+                                    
+<li>
+    <a href="../../rules/summary/" class="dropdown-item">TT Server - Rules Summary</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../how_to_use_tt_admin_tools/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../onboarding_checklist/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="true">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="../../js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#layer-voting-server-config-commands" class="nav-link">Layer Voting Server Config &amp; Commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="layer-voting-server-config-commands">Layer Voting Server Config &amp; Commands</h1>
+<p>General Overview</p>
+<p>Faction Unit and Layer Voting is an opt-in system that allows your communities to vote for the next faction and layer they wish to play. </p>
+<p>When a match of Squad concludes the Scoreboard will appear and afterwards players on each team will be provided a selection to vote for the layer and then the faction they wish to play. </p>
+<p>With the addition of the voting system, factions have been broken down now into units that have their own specialities. Currently these specialties are represented by having a unique lineup of vehicles and FOB emplacements. In the future, this may be expanded to include unique weapons, roles, and commander abilities. These different units can show up in the voting options when voting for which team to play. Unit types currently represented are combined arms (these are similar to how factions were set up before voting), air assault, armored, light infantry, mechanized, motorized, support, and amphibious assault. </p>
+<p>With the addition of the voting system, the amount of gameplay layers has been consolidated now that new layers are no longer required for different factions match-ups (down from 453 to 203). Additional unique layers will be introduced in future updates. </p>
+<p>The full list of units, layers, and which units can be played on what layer can be found below.</p>
+<p>Faction Unit and Map Layer Sheet Reference</p>
+<p>Public-Facing Unit Templates - 7.2</p>
+<p>The Layer Voting System allows Server Owners to:</p>
+<p>Configure the number of layers and factions to be voted on (2 to 6). The default is 6.</p>
+<p>Configure the time given to vote for layers  (20 to 90 seconds). The default is 90 seconds.</p>
+<p>Configure the time given to vote for factions and units (20 to 60 seconds). The default is 60 seconds.</p>
+<p>Configure how many rounds before the same game mode, map, layer, factions, and units can be available to be voted on again.</p>
+<p>Server Owners can also set two different pools of layers that will be available for voting:</p>
+<p>One for low-population server conditions (Ideal for Seeding and Skirmish)</p>
+<p>Server Owners will be able to set what they consider “low population” using a LowPlayerCountThreshold.cfg</p>
+<p>One for normal, fully-populated server conditions</p>
+<p>Server Owners will be able to blacklist certain factions or units from the layers using their layer pool. </p>
+<p>🔵 Blacklisting can be done either through ExcludedFactions.cfg file globally or for specific layers in the respective voting config files.</p>
+<p>Layer voting is optional but there are changes to note.</p>
+<p>There will be a notable decrease in layers to choose from with the voting system from 453 to 203 currently. This is due to duplicate layers using different factions being removed. Layers were cut to consolidate Main Base locations in fewer locations on a given map and to accommodate all possible vehicle spawns needed for a faction.</p>
+<p>To alleviate this problem, Server Owners will be given more flexibility when setting a static layer rotation.</p>
+<p>Notable Console Commands</p>
+<p>AdminChangeLayer - Change the layer and travel to it immediately, no vote will occur.</p>
+<p>AdminSetNextLayer - Sets the next layer to travel to after this match ends, no vote will occur.</p>
+<p>AdminSetNextLevel - Sets the next layer to travel to this map after this match ends, no vote will occur.</p>
+<p>AdminClearNextLayer - Clears the selection of the next layer (ONLY WHEN LAYER VOTING IS ENABLED - SEE “SERVER CONFIGURATION”)</p>
+<p>AdminChangeLayer and AdminSetNextLayer were adjusted to a new layer structure. These accept faction IDs as parameters</p>
+<p>Example Below: Set a new layer to Anvil_AAS_v1 with factions BAF vs INS.</p>
+<p>AdminSetNextLayer Anvil_AAS_v1 BAF INS</p>
+<p>Example Below: Set a new layer to Anvil_AAS_v1 with factions BAF Motorized Unit vs INS.</p>
+<p>AdminSetNextLayer Anvil_AAS_v1 BAF+Motorized INS</p>
+<p>⚠️ If any layer or level is set using AdminSetNextLayer while Layer Voting is enabled, the voting stage at the end of a match WILL NOT start and the server will be moved to the next selected layer, instead. The new command AdminClearNextLayer can be used to reset any selected upcoming layer/level, and re-enable Layer Voting for the next layer.</p>
+<p>Server Configuration</p>
+<p>To ENABLE the Layer Voting system on your server, you will need to change the Map Rotation Mode in your Server.cfg file by changing the MapRotationMode entry to LayerList_Vote (example below). </p>
+<p>MapRotationMode=LayerList_Vote</p>
+<p>To define possible voting options, there are 4 additional files Server Owners will need to be aware of</p>
+<p>LayerVoting.cfg - Used for listing layers, as well as factions that can be voted on during layer votes.</p>
+<p>LayerVotingLowPlayers.cfg - Used when server player count is below the value set for LowPlayerCountThreshold in VoteConfig.cfg (see next point). This file can be deleted if only one mode is desired (Please be aware that updating the server using the validate option may restore the file).</p>
+<p>LayerVotingNight.cfg - Used on selected timeframe configured in VoteConfig.cfg</p>
+<p>VoteConfig.cfg - Used for general layer voting configuration, as well as when to switch between using LayerVoting.cfg and LayerVotingLowPlayers.cfg. </p>
+<p>These configuration files will be loaded and used as a source for picking voting options based on the number of players on the server. These are covered below.</p>
+<p>LayerVoting.cfg is ideally used for listing layers you’d like to be played during NORMAL or FULL  server populations, such as AAS / RAAS, and Invasion layers.</p>
+<p>LayerVotingLowPlayers.cfg is ideally used for listing layers you’d like to be played during LOW server populations, such as Seeding and Skirmish layers.</p>
+<p>The default Map Rotation Mode for a freshly installed server will be set to Layer Voting.</p>
+<p>⚠️ The structure of both Layer config files is the same, containing a SINGLE layer entry per line.</p>
+<p>Layer_Name|Exclude_Options_Team1|Exclude_Options_Team2</p>
+<p>A few examples of Layer entries and relevant parameters to put in LayerVoting.cfg and LayerVotingLowPlayers.cfg:</p>
+<p>Example</p>
+<p>Effect</p>
+<p>Anvil_AAS_v1</p>
+<p>Uses the Anvil_AAS_v1 layer with all faction and unit possibilities.</p>
+<p>Anvil_Invasion_v1|BAF</p>
+<p>EXCLUDE the BAF faction from the voting pool for BOTH TEAMS.</p>
+<p>Anvil_Invasion_v1|BAF|</p>
+<p>Second pipe character “|” at the end. EXCLUDE the BAF faction for TEAM 1. Exclude nothing for TEAM 2.</p>
+<p>Anvil_Invasion_v1||BAF</p>
+<p>Two pipe characters “||” at the beginning. Exclude nothing for TEAM 1. EXCLUDE the BAF faction for TEAM 2.</p>
+<p>Anvil_RAAS_v1|BAF+Motorized</p>
+<p>EXCLUDE Motorized unit from BAF faction for BOTH TEAMS.</p>
+<p>Anvil_RAAS_v2|+Motorize</p>
+<p>ALL Motorized units from all possible factions will be EXCLUDED for BOTH TEAMS.</p>
+<p>Anvil_Skirmish_v1|BAF|USA</p>
+<p>BAF faction will be EXCLUDED from TEAM 1 and USA will be EXCLUDED from TEAM 2.</p>
+<p>Anvil_Skirmish_v1|BAF INF|USA</p>
+<p>BAF and INF will be EXCLUDED for TEAM 1 and USA will be EXCLUDED for TEAM 2.</p>
+<p>General Rules for Voting Layer Parameters</p>
+<p>If you write the name of the Faction it will be EXCLUDED</p>
+<p>If you write the Faction Name + Unit type. The specific unit will be EXCLUDED </p>
+<p>If you write +Unit type, all units of this type will be EXCLUDED </p>
+<p>If only the first parameter is defined it will apply to BOTH teams</p>
+<p>Faction Units Parameter and Details</p>
+<p>Below is a sheet that contains what each Faction Unit entails for every faction include what preset emplacements and vehicles will be available and what biomes they can be played on.</p>
+<p>Public-Facing Unit Templates - 7.2</p>
+<p>Additional Configuration Notes</p>
+<p>If LayerVotingLowPlayers.cfg is EMPTY only LayerVoting.cfg will be used.</p>
+<p>The first layer to load on the server is defined in VoteConfig.cfg, if it is empty, the first line from LayerVoting.cfg will be used.</p>
+<p>Global Exclusion</p>
+<p>Squad already features this system and has been modified to work with the Layer Voting System below are the notable files we want to highlight.</p>
+<p>ExcludedLevels.cfg - contains info about maps that should be EXCLUDED during any type of rotation (nothing changed)</p>
+<p>ExcludedLayers.cfg - contains information on layers to be EXCLUDED during any time of rotation. (nothing changed)</p>
+<p>ExcludedFactions.cfg - contains info about factions, units, and specific faction setups. While defining rules in this file the General Rules for Layer Parameters are applied.</p>
+<p>ExcludedFactionSetups.cfg - This file has been Removed with the Layer Voting System. </p>
+<p>Layer Voting Flow Setting</p>
+<p>All additional settings related to Layer Voting are stored in VoteConfig.cfg. The default VoteConfig.cfg file generated on fresh server installation is shown below:.</p>
+<p>// When using Level Vote, this value lets you control how many layers will be picked from your rotation and offered in each layer vote. Possible values from 2 to 6. (Default is 6)</p>
+<p>LayerOptionsNumber=6</p>
+<p>// Duration of voting phase for next layer</p>
+<p>LayerVoteDuration=90</p>
+<p>// Duration of voting phase for each faction/team</p>
+<p>TeamVote_Duration=60</p>
+<p>// How many options will be presented on team/faction selection screen during voting. Possible values from 2 to 6. (Default is 6)</p>
+<p>TeamVoteOptionsNumber=6</p>
+<p>// If the number of players at the end of the match is less than this number then the next voting round uses a special pool that can have seeding or skirmish layers. Defined in LayerVotingLowPlayers.cfg.</p>
+<p>LowPlayerCountThreshold=30</p>
+<p>// Special rules to delay duplicated options in next match voting. In case when there is not enough options to present configured number of options, the options with the shortest delay can be picked.</p>
+<p>// Delay for last played map</p>
+<p>MapSkipRounds=1</p>
+<p>// Delay for last played biome</p>
+<p>MapBiomeSkipRounds=0</p>
+<p>// Delay for last played layer size</p>
+<p>LayerSizeSkipRounds=0</p>
+<p>// // Delay for last played game mode with an option to set different delays per each game mode</p>
+<p>GameModeSkipRounds=AAS 0, RAAS 0, Invasion 0, Seed 0, Skirmish 0, TerritoryControl 0, Insurgency 0, Destruction 0, TrackAttack 0</p>
+<p>// Delay for last played layer</p>
+<p>LayerSkipRounds=1</p>
+<p>// Delay for last played faction</p>
+<p>FactionSkipRounds=1</p>
+<p>// Delay for last played specific faction unit</p>
+<p>FactionSetupSkipRounds=1</p>
+<p>// If true, there is an option to regenerate the map list. If it gets the most votes, the list is regenerated. The option is available only once.</p>
+<p>CanRegenerateLayerList=true</p>
+<p>// If true, there is an option to regenerate the faction list. If it gets the most votes, the list is regenerated. The option is available only once.</p>
+<p>CanRegenerateFactionList=true</p>
+<p>// If false, player vote count won't be displayed during voting.</p>
+<p>DisplayVotes=true</p>
+<p>// If true, will display enemy info with details during voting process</p>
+<p>DisplayEnemyInfo=true</p>
+<p>// All unit types presented for second team will be the same as first team choice</p>
+<p>SymmetricalMatchUp=false</p>
+<p>// Set how many choices of selected game mode should be presented on layer voting screen. 0 is unlimited</p>
+<p>// If sum of options exceeds LayerOptionsNumber first defined game modes will have priority</p>
+<p>GameModeChoices=AAS 0, RAAS 0, Invasion 0, Seed 0, Skirmish 0, TerritoryControl 0, Insurgency 0, Destruction 0</p>
+<p>// Only unique maps with random gamemode will be displayed during map voting phase</p>
+<p>UniqueMap=true</p>
+<p>// After voting for layer, factions will be auto-selected according to other configured rules</p>
+<p>AutoSelectFactions=false</p>
+<p>// Define time when server should use night time config ex. 18:00-04:00 </p>
+<p>// During those hours voting will use config defined in LayerVotingNight.cfg</p>
+<p>// LayerVotingLowPlayers has priority over this. So in situation when server // will be in night mode but the players count will go below </p>
+<p>// LowPlayerCountThershold, the low players config will be used.</p>
+<p>// Time is based on server system time</p>
+<p>NightTime=</p>
+<p>// The first layer to start with in voting mode. This layer will be loaded as default each time the server starts.</p>
+<p>FirstLayer=</p>
+<p>Changes in 8.0:</p>
+<p>New options: UniqueMap, AutoSelectFactions, GameModeChoices</p>
+<p>Changes in 7.3:</p>
+<p>New options MapBiomeSkipRounds, LayerSizeSkipRounds, SymmetricalMatchUp, NightTime</p>
+<p>GameModeSkipRounds, can define delay for each game mode </p>
+<p>Certain skip options can interfere with each other. For example, having GameModeSkipRounds set to 1 on every single game mode and LayerSkipRounds set to 2 will result in the LayerSkipRounds overwriting everything and skipping game modes for the next 2 voting phases. </p>
+<p>Other Rotation Modes</p>
+<p>The only change is for LayerRotation.cfg and LevelRotation.cfg. The number of possible layers has been reduced so if there are still some records for removed layers in your configuration files they will be EXCLUDED. There are two new ways for Server Owners to define a list of layers:</p>
+<p>Anvil_AAS_v1</p>
+<p>This will load the Anvil_AAS_v1 layer with a predefined factions setup.</p>
+<p>Anvil_AAS_v1 USA RDF</p>
+<p>This will change the factions used on the selected layer. The new faction for Team 1 will be USA and for Team 2 RDF. Right now there are rules that prevent specific setups for layers covered below.</p>
+<p>You can’t play against the same faction</p>
+<p>You can’t play against a faction in the same alliance (REDFOR/BLUFOR), the EXCEPTION for this is the independent factions. </p>
+<p>🔵 If the configuration you’ve used is INVALID, it will try to fix itself by changing the SECOND team to a valid faction.</p>
+<p>Faction Alliance Reference</p>
+<p>REDFOR</p>
+<p>Russian Airborne Forces - VDV</p>
+<p>Russian Ground Forces - RDF</p>
+<p>BLUFOR</p>
+<p>Australian Defence Force - ADF</p>
+<p>British Armed Forces - BFA</p>
+<p>Canadian Armed Forces - CAF</p>
+<p>United States Army - USA</p>
+<p>United States Marine Corps - USMC</p>
+<p>PAC (Pan-Asian Coalition)</p>
+<p>People’s Liberation Army  - PLA</p>
+<p>PLA Navy Marine Corps - PLANMC</p>
+<p>People’s Liberation Army Amphibious Ground Forces - PLAAGF</p>
+<p>INDEPENDENT</p>
+<p>Middle Eastern Alliance - MEA</p>
+<p>Turkish Land Forces - TLF</p>
+<p>Insurgents - INS</p>
+<p>Irregular Militia Forces - IMF</p>
+<p>Known Issues</p>
+<p>Layer Voting is a work-in-progress system. We want Server Owners to know and to keep this and a few things in mind when testing the feature.</p>
+<p>Players/Admins are able to swap teams during the map (layer)/Unit voting but don’t test this functionality as it’s being reworked.</p>
+<p>Non-regular layers will not have proper preview information for the voting screen as these are not made for gameplay. Examples are Training, JensensRange, and training variants of PacificProvingGrounds. These layers are excluded from voting rotations by default.</p>
+<p>AdminRestartMatch and AdminSlomo during or before the voting phase will cause issues with the timer and voting flow display order</p>
+<p>Voting timers will display the wrong value if the client time is not in sync with the server time.</p>
+<p>Vehicle and player spawns could be misplaced, causing spawns to be clipping, and vehicles being damaged or fly away</p>
+<p>If you encounter this, PLEASE REPORT the specific layer and vehicle type</p>
+<p>The deployment tutorial can overlay and block voting.</p>
+<p>Layer specific issues</p>
+<p>Gorodok Destruction v1 - US Tank not spawning</p>
+<p>Harju - Invasion v2 + RAAS v1 - There is no Repair Station available for boats in the Main Base.</p>
+<p>Gorodok Invasion v1 - Multiple vehicles flipping when spawned.</p>
+<p>Al Basrah AAS v1 - Team 1 delayed tank spawn will cause the tank to fly up and flip</p>
+<p>Fallujah - TC v1 - MBT spawners for both teams aren't working</p>
+<p>JensensRange layers are not compatible with the voting system, setting them up for voting can lock up the voting flow. Please use AdminRestartMatch to escape the locked state.</p>
+<p>ALL OF THIS IS SUBJECT TO CHANGE</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
