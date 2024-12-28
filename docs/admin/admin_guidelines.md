@@ -25,7 +25,7 @@ Admins have a duty to recognize breaches of the civility norms and help enforce 
 
 Volunteers need to keep each other accountable and discuss things directly with each other, but they must assume and engage in good faith.
 
-# Admin Camera 
+## Admin Camera 
 Admin camera (cam) is a useful tool, but it also has potential for abuse and the appearance of abuse. 
 
 No more than two admins (one on each team) should be in cam at a time.
@@ -36,7 +36,7 @@ Active players should minimize their usage of cam. Consult with other admins to 
 
 Administrators bear the responsibility to neither act on nor appear to act on information obtained through cam. Abuse of cam for a gameplay advantage is considered the most serious violation of trust and buys a one-way ticket to the Moon.
 
-# VOIP Request 
+## VOIP Request 
 In-game chat is not suited to prolonged or complicated discussions.
 
 Disagreements in-game that are not resolved after a few minutes should end. Game-breaking situations must be resolved, but further discussion should take place in a VOIP channel. 
@@ -49,7 +49,7 @@ To ignore a VOIP request in order to play the game is a violation of policy. Unr
 “And at the end of the day, I keep saying it, it’s a fucking volunteer club guys. Just have a good time.”  
 Bulltwinkle, 2022
 
-# Admin Lites
+## Admin Lites
 
 We ask Lites to take action when they observe a rules violation and  investigate player reports. 
 
@@ -62,7 +62,7 @@ Admin Lites act as the eyes and ears of the server. Who did you kick today? Did 
 
 Admin Lites will attend a quarterly meeting with the rest of the admin team.
 
-# Headquarters
+## Headquarters
 
 Headquarters members (HQ) are responsible for day to day operations. 
 
@@ -78,7 +78,7 @@ Headquarters volunteers help manage and steer the organization. HQ members have 
   
 Headquarters will meet once a month for admin intake and to vote on policy changes in the #headquarters channel.
 
-# Command
+## Command
 
 Command is ultimately responsible for admin behavior, server performance, and community growth.
 
@@ -95,7 +95,7 @@ Command must organize and attend monthly meetings along with the rest of Headqua
 “Alright, where’s the goddamn grease fire?”                             
   napalmphantom, 2022
 
-# Admin Chat
+## Admin Chat
 
 Admin chat is where admins share information in real time. Admins should do their utmost to read and participate in admin chat.
 
@@ -105,7 +105,7 @@ We are not all in your VOIP! Decisions made for the server should be confirmed i
 
 Use admin chat to share information, investigate problems, and resolve issues. Do not hesitate to ask other admins on the server about problems you run into. 
 
-# Discord Chat
+## Discord Chat
 
 Discord is the platform we use to share information, post announcements, and host topic discussions that require thinking. 
 
@@ -136,7 +136,7 @@ Game mode votes, map size votes, or specific layer votes are acceptable methods 
 
 You can find the layer information spreadsheet pinned in the #admin-bulletin Discord channel. Further information can be found at https://squadmaps.com/ and https://squadlanes.com/
 
-# Recommended Late Night Maps / Layers
+## Recommended Late Night Maps / Layers
 
 After 12AM EST, stick to “safe” maps to help maintain server population. We strongly recommend you stick to R/AAS layers past 12am. The time for experimentation is during prime-time hours (roughly 4PM-11PM EST). Here is a list of maps we consider safe:
 
@@ -186,16 +186,12 @@ Reasonable ban lengths can be found pinned in #problem-players and in the Admin 
 
 Removals should be due to a clear violation of the rules, not the fact a player didn’t follow an admin order. Honest errors due to imperfect information, bad reports, or a lapse in judgment are an expected part of the service. We learn from these mistakes and minimize them in the future.
 
-
 |Acceptable kick messages|Unacceptable kick messages|
 |------------------------|--------------------------|
 |Intentional Teamkilling | GROW UP MORON |
 |Basecamping | I TOLD YOU TO BACK OFF |
 |Harassment/Trolling | FUCK OFF|
 |Spamming/Comm Spam| CLEAR ALL CHAT DUMMY!|
-
-
-INEXPLICABLE STUPIDITY
 
 # Specific Enforcement 
 ## Team Killing
