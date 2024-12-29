@@ -194,5 +194,10 @@ To use these filters, simply add additional text to the command, separated by sp
 
 Even if it’s the depths of gremlin hours, you can use this system to generate and set particular layers.
 
-If it's too late in the round to run a map vote—or you are in gremlin hours—use the command !setpool <1, 2, or 3> to set the next layer from the generated map pool. Each number refers to the index of the generated map pool.
+If it's too late in the round to run a map vote—or you are in gremlin hours—use the command `!setpool <1, 2, or 3>` to set the next layer from the generated map pool. Each number refers to the index of the generated map pool.
 
+# Server Admin Console Commands
+
+—----------KEEP USE OF THESE MINIMAL. ONLY USE THESE IF THE OTHER SERVICES GO DOWN OR DON’T WORK
+
+https://squad.gamepedia.com/Server_Administration#Admin_Console_Commands 

@@ -1,6 +1,19 @@
 ---
-title: Admin-Lite Onboarding Checklist
+title: Admin-Lite Onboarding
 ---
+
+# TTRolesBot
+
+Once you are given an admin role in discord the first step is to get your steamid linked with the server so that it recognizes you as an admin. This will give you abilities to use in-game console commands and give you a reserved spot. This is the same system used to link patrons to their reserved spots. The bot is fully automated and self updates the server, any steamid changes should be active on the server next map change, there is a possibility it will take a couple of hours, any longer that and reach out for tech support/confirm steps.
+
+Steps: 
+
+* Send the @TTRolesbot the message `!admin STEAMIDHERE` after giving the user the Admin Lite discord role. This command allows you to check current steam ids attached to your user by sending “!whitelist” alone or add new steam ids by sending !whitelist and including a list of steam ids after it.
+* Find your steam id here https://steamid.io/, we need your steam64, nothing else will work.
+* To set up your solo steamid as an admin use the following, `!whitelist <your steamid here>`.  It should send back a confirmation that looks like this. 
+* If you have a patreon subscription and are entitled secondary reserved spts for steam ids, list them after your steam id in the same message. It should look like this `!whitelist <your steamid>, <friend’s steamid>`.  The bot again will send back a confirmation, it is VERY important that the admin sends their steamid first, as that is the one that will receive the powers.
+
+
 # Admin-Lite Onboarding Checklist
 
 This checklist has been designed to be completed in order. 

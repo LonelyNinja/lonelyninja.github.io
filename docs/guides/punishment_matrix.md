@@ -22,7 +22,7 @@ If it is a consistent problem, then add a player note, & problem players
 |Solo vehicle-Was 2 manned, lost crewman.|Allow chance to get second crewman, warn if moving away from friendlies, only kick if clear not attempting to regroup|
 |Solo vehicle- ditching/not RTB solo vehicle|Timeout or 1 day ban max|
 
-## Types of Intentional Teamkilling
+# Intentional Teamkilling Matrix
 
 |Situation|Resolution|
 |---------|----------|
