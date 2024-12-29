@@ -1,6 +1,106 @@
 ---
-title: Enforcement Guidelines
+title: All Admins
 ---
+
+# Universal Admin Policies
+## Civility Policy
+Civility is essential for a group of 100+ people from all over the world to get along.
+
+All admins must treat each other with respect and courtesy in all communications and disputes. We are all on the same team and must act like it.
+
+Admins have a duty to recognize breaches of the civility norms and help enforce the rules of civility. Do not allow a friend to succumb to the Big Mad.
+
+Volunteers need to keep each other accountable and discuss things directly with each other, but they must assume and engage in good faith.
+
+## Admin Camera 
+Admin camera (cam) is a useful tool, but it also has potential for abuse and the appearance of abuse. 
+
+No more than two admins (one on each team) should be in cam at a time.
+
+Do not ever share information from cam with players. Resolve the situation and then exit. 
+
+Active players should minimize their usage of cam. Consult with other admins to see if they can help manage issues such as ticket count, team kills, and kit enforcement.
+
+Administrators bear the responsibility to neither act on nor appear to act on information obtained through cam. Abuse of cam for a gameplay advantage is considered the most serious violation of trust and buys a one-way ticket to the Moon.
+
+## VOIP Request 
+In-game chat is not suited to prolonged or complicated discussions.
+
+Disagreements in-game that are not resolved after a few minutes should end. Game-breaking situations must be resolved, but further discussion should take place in a VOIP channel. 
+
+Any admin may request any other admin to meet in VOIP. This request will obligate both admins to meet for a VOIP discussion. If no resolution can be reached through VOIP, shelve the topic and message a HQ, Relations, or Command member.
+
+To ignore a VOIP request in order to play the game is a violation of policy. Unreasonable use or abuse of the VOIP request policy will be harshly scrutinized.
+
+# Responsibilities and Roles
+“And at the end of the day, I keep saying it, it’s a fucking volunteer club guys. Just have a good time.”  
+Bulltwinkle, 2022
+
+
+
+
+# Guidelines for Communication
+“Alright, where’s the goddamn grease fire?”                             
+  napalmphantom, 2022
+
+## Admin Chat
+
+Admin chat is where admins share information in real time. Admins should do their utmost to read and participate in admin chat.
+
+Say hello when you join a game.  Before any big decisions, gather information about map choices, previous votes, and the status of team balance.
+
+We are not all in your VOIP! Decisions made for the server should be confirmed in admin chat after sufficient discussion. 
+
+Use admin chat to share information, investigate problems, and resolve issues. Do not hesitate to ask other admins on the server about problems you run into. 
+
+## Discord Chat
+
+Discord is the platform we use to share information, post announcements, and host topic discussions that require thinking. 
+
+Problems, decision analysis, or challenges come through admin channels on Discord. Admins should read and participate in #admin-barracks and #problem-players discussions.
+
+Approach any disagreement constructively and with maturity. Be open about your opinion, honest with other admins, maintain civility, and stay willing to learn.
+
+Solve problems at the lowest level. Reach out to proactively clear up misunderstandings from the server or in Discord.
+
+# Guidelines for Map Votes
+
+"You want to make people swallow spinach? Vegetables before DESSERT"  
+ - Randy Newman, 2022
+
+Admins are encouraged to set maps and start map votes. Map decisions are agreed upon through admin chat. See the Admin Reference Sheet for instructions on how to initiate a map vote.  These guidelines are non-exhaustive:
+
+Avoid repeating recently played maps. Use the !maps command or check the #maps-played channel for a list of recent maps.
+
+Discuss options with all other admins and allow time for replies. Do not surprise admins with a “sneak set” or surprise vote. Utilize an !admin ping to alert other admins when a map discussion takes place.
+
+Admins are responsible for compromise. Use reason, strike deals, negotiate, and compromise. “We can set your pick now, but then we can run this vote next” or “we haven’t played a helicopter layer recently. Can we do a full monty vote?”
+
+We need a variety of maps and layers to keep the gameplay fresh on the server. Account for the previous maps, game mode, size, terrain, and assets.  A wide array of player preferences require admins to consider maps with the entire server in mind. 
+
+Avoid last minute map scrambles. We can comfortably figure out map and vote choices in the first fifteen minutes of a game.
+
+Game mode votes, map size votes, or specific layer votes are acceptable methods to select the next map. Sequential votes (e.g. first vote map size, second vote map) are encouraged when time permits.
+
+You can find the layer information spreadsheet pinned in the #admin-bulletin Discord channel. Further information can be found at https://squadmaps.com/ and https://squadlanes.com/
+
+## Recommended Late Night Maps / Layers
+
+After 12AM EST, stick to “safe” maps to help maintain server population. We strongly recommend you stick to R/AAS layers past 12am. The time for experimentation is during prime-time hours (roughly 4PM-11PM EST). Here is a list of maps we consider safe:
+
+* Yehorivka (RAAS v1, v3; AAS v1)
+* Narva (any AAS or  RAAS v1)
+* Gorodok (RAAS v1, v2, v5, v4 small)
+* Sumari (AAS v1; RAAS v1)s
+* Goose Bay (AAS v1; v2 RAAS v1)
+* Kokan (AAS v1, RAAS v1, v2)
+* Chora (AAS v1; RAAS v1, v2)
+* Mutaha (AAS v1, v2, RAAS v1)
+* Fallujah (AAS v1, v2; RAAS v1, v2, v3)
+* Black Coast (AAS v1; RAAS v1, v3, v4)
+* Harju (AAS v1, AAS v2 inf; RAAS v1, v2, v6)
+
+
 
 # Guidelines for Enforcement
 
@@ -166,3 +266,4 @@ The Base Camping Committee (BCC) will read, oversee, and participate in #base-ca
 The BCC, made up of 3 members of HQ, and overseen by Kirb will assess the situation. Internally, the BCC will vote on it and render a decision. This decision will be a majority decision by the committee with Kirb able to overrule it. The ruling will come with an explanation of the situation and how it may apply in the future. This decision will become the standard and overrule individual opinions of admins. If HQ disagrees with this interpretation of the rules and situation, they can overrule the decision through a majority vote.
 
 Grandfathered “No Go” Zones (Fools Road, Narva, Basra)
+
