@@ -1,25 +1,19 @@
 ---
 title: Layer Voting
 ---
-# Layer Voting Server Config & Commands
+ 
+```
+Note from LonelyNinja: Not cleaning this one up yet until I know where I want it
+```
 
-General Overview
+# Layer Voting
+## General Overview
 
-Faction Unit and Layer Voting is an opt-in system that allows your communities to vote for the next faction and layer they wish to play. 
-
-
-
-When a match of Squad concludes the Scoreboard will appear and afterwards players on each team will be provided a selection to vote for the layer and then the faction they wish to play. 
-
-
+Faction Unit and Layer Voting is an opt-in system that allows your communities to vote for the next faction and layer they wish to play.  When a match of Squad concludes the Scoreboard will appear and afterwards players on each team will be provided a selection to vote for the layer and then the faction they wish to play. 
 
 With the addition of the voting system, factions have been broken down now into units that have their own specialities. Currently these specialties are represented by having a unique lineup of vehicles and FOB emplacements. In the future, this may be expanded to include unique weapons, roles, and commander abilities. These different units can show up in the voting options when voting for which team to play. Unit types currently represented are combined arms (these are similar to how factions were set up before voting), air assault, armored, light infantry, mechanized, motorized, support, and amphibious assault. 
 
-
-
 With the addition of the voting system, the amount of gameplay layers has been consolidated now that new layers are no longer required for different factions match-ups (down from 453 to 203). Additional unique layers will be introduced in future updates. 
-
-
 
 The full list of units, layers, and which units can be played on what layer can be found below.
 

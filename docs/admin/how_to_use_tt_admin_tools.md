@@ -1,5 +1,5 @@
 ---
-title: TT Admin Guide
+title: Admin Guide
 --- 
 
 # TT Admin Guide

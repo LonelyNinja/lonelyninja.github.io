@@ -1,5 +1,5 @@
 ---
-title: TT Admin Policies
+title: Admin Policies
 ---
 
 # Universal Policies

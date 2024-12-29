@@ -1,5 +1,5 @@
 ---
-title: TT Admin Command Reference
+title: Admin Command Reference
 ---
 
 # TT Admin Command Reference Sheet

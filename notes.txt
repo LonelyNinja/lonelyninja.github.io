@@ -14,3 +14,4 @@
     * In-Game/SquadJS
     * Whitelist Site
     * Patreon
+    * PSG Hosting/Server Management

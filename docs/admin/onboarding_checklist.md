@@ -3,7 +3,6 @@ title: Admin-Lite Onboarding Checklist
 ---
 # Admin-Lite Onboarding Checklist
 
-
 This checklist has been designed to be completed in order. 
 
 - [ ] Add information to the roster ([Admin Roster 2.0](https://docs.google.com/spreadsheets/d/1E9sNXuz5dKnurTKuMM9iAG1WODAKzoZbjn4nen8ZlUw/edit#gid=0))

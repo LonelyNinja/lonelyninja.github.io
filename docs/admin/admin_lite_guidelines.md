@@ -1,5 +1,5 @@
 ---
-title: TT Admin Lite Guidelines
+title: Admin Lite Guidelines
 --- 
 
 # Admin Lite Guidelines
