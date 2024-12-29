@@ -1,18 +1,9 @@
 ---
-title: TT Admin Reference Sheet
+title: TT Admin Command Reference
 ---
 
 # TT Admin Reference Sheet
 
-|Name|Description|
-|----|-----------|
-|[TT Admin Roster](http://tiny.cc/TTadminroster)|In case of a melt down|| 
-|[#ban-appeals Etiquette/Player Relations Principles](http://tiny.cc/TT-PR-ban-appeal)|We keep Squad lawyers on retainer to represent you in #ban-appeals.|
-|[Server Rules](../rules/server_rules.md)|The Rules Bible| 
-|[How to Use Admin Tools](./how_to_use_tt_admin_tools.md)|Roles bot, Discord, BattleMetrics and SquadJS| 
-|[Admin Guidelines](./admin_guidelines.md)|Guidelines on admin roles and conduct| 
-|[BattleMetrics](https://battlemetrics.com/)|RCON panel for the server|
-|[PSG Hosting Panel](https://control.psg-hosting.com/)|Server control panel|
 
 # SquadJS Interactions
 
@@ -59,9 +50,7 @@ SquadJS will attempt to match incomplete player names. This means you may not ha
 |!unyeet|Wipes the ‘!timeout/!yeet’ command ban list|
 |!randomize|(Use !randomizenext below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap|
 |!randomizenext|Updated version of !randomize. This command will automatically shuffle the teams after the map switch.|
-|!vote option1 option2 [[option3] ...]|Initiates a 3 minute server wide vote. Used for map votes. Remember to set the next map in BattleMetrics after the vote is completed.  Example(s):  
-* !vote belaya kamdesh kohat 
-* !vote urban desert forest|
+|!vote option1 option2 [[option3] ...]|Initiates a 3 minute server wide vote. Used for map votes. Remember to set the next map in BattleMetrics after the vote is completed.  Example(s): <br/> `!vote belaya kamdesh kohat`<br/>  `!vote urban desert forest`|
 |!endvote|Prematurely ends a vote in progress. End a vote early if you are cutting it close with the 3 minute map vote and the game’s end approaches|
 |!runoff|Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using `!vote`) and mappool votes(started by `!rtv`).|
 |!fog [1/0]|This will reveal the flag sequence of a RAAS layer on the map for all players. Essentially turns a RAAS game into an AAS layer, but with different patterns. Announce fog off round before with admin consensus|
@@ -69,20 +58,17 @@ SquadJS will attempt to match incomplete player names. This means you may not ha
 |!disband [#]|Disbands the targeted squad of the executor’s team|
 |!enemydisband [#]|Disbands the targeted squad of the executor’s opposing team|
 |!shownext|Shows the next map, factions and subfactions.  Note: This is no longer an admin exclusive command|
-|!w, !warn playername message|Send a written message to a player. This can be a shortcut listed below, or a custom sentence:
-* !w drewpro SLkit
-* !warn drewpro Please grab an SL kit your next spawn|
+|!w, !warn playername message|Send a written message to a player. This can be a shortcut listed below, or a custom sentence:<br/>`!w drewpro SLkit`<br/>`!warn drewpro Please grab an SL kit your next spawn`|
 |!maps|Shows the last 6 maps, factions and end times. Retrieves match history from the squadjs database. Repeats 3 times|
 |!tickets|Displays detailed information about the past 6 games, including layer, factions and ticket differential. Repeats 3 times||
 |!switchnext playername|This command will automatically switch a player to the other team at the beginning of the next map| 
 |!switchnow playername|Switches a player instantly from one team to another|
-|!autofog {toggle | status | save} |!autofog toggle will turn off the fog on RAAS automagically. !autofog status will show you the current setting (should be off by default) !autofog save will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off|
-|!rotation {toggle | status | save}|!rotation toggle will turn on the server map rotation for Fogless Friday. !rotation status will show the current status. !rotation save will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play|
+|!autofog {toggle,status,save} |!autofog toggle will turn off the fog on RAAS automagically. !autofog status will show you the current setting (should be off by default) !autofog save will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off|
+|!rotation {toggle,status,save}|!rotation toggle will turn on the server map rotation for Fogless Friday. !rotation status will show the current status. !rotation save will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play|
 
 # [Reason] Shortcuts
 
 Instead of typing a reason/message in your !warn, !kick or !kill, you can type any of these shorthands. It will only work as a solo word, not in combo with anything. 
-
 
 |Shortcut|Message|
 |--------|-------|
@@ -177,7 +163,7 @@ To use these filters, simply add additional text to the command, separated by sp
 |!genpool medium gorodok|This pool will consist of a Gorodok option and two medium options: map filters are prioritized by the plugin|
 |!genpool gorodok fallujah basra |The pool’s maps will consist of a Gorodok option, a Fallujah option, and an Al Basra option|
 |!genpool gorodok fallujah basra aas|The same as above, but every option in the pool will be AAS|
-||!genpool gorodok fallujah basra aas sym|The same as above, but with mirror matchups only (e.g. a light infantry sub-faction vs. another light infantry sub-faction.)|
+|!genpool gorodok fallujah basra aas sym|The same as above, but with mirror matchups only (e.g. a light infantry sub-faction vs. another light infantry sub-faction.)|
 
 # List of commands
 
@@ -200,45 +186,4 @@ To use these filters, simply add additional text to the command, separated by sp
 Even if it’s the depths of gremlin hours, you can use this system to generate and set particular layers.
 
 If it's too late in the round to run a map vote—or you are in gremlin hours—use the command !setpool <1, 2, or 3> to set the next layer from the generated map pool. Each number refers to the index of the generated map pool.
-
-
-
-# Punishment Matrix
-
-If it is a consistent problem, then add a player note, & problem players
-
-|Infraction|Suggested Punishment|
-|----------|--------------------|
-|Egregious racism, harassment or homophobia|Permanent ban|
-|Cheating, or knowingly abusing an exploit|Permanent ban|
-|Egregiously bad attitude (repeated violations)|Permanent ban|
-|Any infraction after 2 prior bans (3 strike rule)|Permanent ban|
-|SL without microphone/unresponsive|Kick after warnings. Disband squad if necessary.|
-|SL without SL kit / Infantry SL with crewman or pilot kit|Kick after warnings. Disband squad if necessary|
-|Squad seeding/baiting (only if they created the squad and the problem)|Kick or Yeet and disband if necessary (No other squadmates pick up SL kit)|
-|Offensive language/Toxicity (harassing and going after players)|Kick. Ban if required|
-|All chat spam|Multiple warns, only kick last resort|
-|Excessive music/noise during staging phase, voip spam|Ask to stop, warn then kick|
-|Solo vehicle- solo when leaving main, no squad around|Warn, kick/yeet before hinders team|
-|Solo vehicle-Was 2 manned, lost crewman.|Allow chance to get second crewman, warn if moving away from friendlies, only kick if clear not attempting to regroup|
-|Solo vehicle- ditching/not RTB solo vehicle|Timeout or 1 day ban max|
-
-## Types of Intentional Teamkilling
-
-|Situation|Resolution|
-|---------|----------|
-|Spotted from admin ping but not witnessed|Kick to 3 day ban dependent on severity|
-|Minor intentional TK (playfully knifing your friend) or round end nonsense|Kick-reach out if server regular|
-|Retaliatory TK(s)|2 day to 1 month depending on severity - upgrade to perm for sprees|
-|Inexplicable idiocy|3 day to 1 week ban|
-|Defensive TK(to stop TKing spree in the moment)|Warning at most kick|
-|Teamkilling for vehicles, harassment TKs|1 month|
-|Serious instances of intentional team killing (TKing whole squads)|
-|Maximum allowable, upgraded to perma later|Other offenses|
-|Lack of teamwork|Warning followed by a kick or a temporary ban depending on severity|
-|Causing a ruckus on the server (arguing with admins etc)|Bad/toxic attitude (first time offender)|
-|Asset Waste - Malicious (Heli-ramming, rotor-ing, trolling etc)|1 week to 1 month if confirmed, if unsure about rams warn|
-|Asset waste - Incompetence|Warns to not use assets, kick if required|
-|Base camping|Warns to backoff, kick if actions continue. Only kick if egregious|
-|Inappropriate name|Kick with message “come back when you change your name”. If they return with the same name, add ban: untick steamID and tick offensive name|
 
