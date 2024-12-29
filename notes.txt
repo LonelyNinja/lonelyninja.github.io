@@ -1,0 +1,16 @@
+* Policies
+    * Server Rules
+    * Headquarters
+    * Admin Lite
+* Guides
+    * Layer Voting
+    * Rules Enforcement
+    * Punishment Matrix
+    * Late Night
+    * Jail and Courthouse Guidelines
+* Reference
+    * BattleMetrics
+    * Discord
+    * In-Game/SquadJS
+    * Whitelist Site
+    * Patreon
