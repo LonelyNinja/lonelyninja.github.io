@@ -1,5 +1,6 @@
 site_name: Tactical Triggernometry
 site_url: https://lonelyninja.github.io
+site_description: Reference for Tactical Triggernometry Squad Server Administration
 theme: 
   name: mkdocs
   highlight_js: true
