@@ -23,16 +23,16 @@ This checklist has been designed to be completed in order.
     - [ ] Contact CMD with lite’s email for google drive
 - [ ] Onboardee (new Lite) only! Direct message the TTRolesBot “!admin {YOURSTEAMID}”.  As with whitelist, the server will give you your new powers after the next map roll. http://tt-roles.tacticaltriggernometry.com/profile
 - [ ] Onboardee (new Lite), open the email from battlemetrics and accept the invitation to the battlemetrics organization. 
-- [ ] View and consider the [TT Admin Guidelines](./admin_guidelines.md)
-- [ ] View and consider the [Admin Lite Guidelines](./admin_lite_guidelines.md)
+- [ ] View and consider the [TT Admin Info/Policies](../policies/all_admins.md)
+- [ ] View and consider the [Admin Lite Info/Policies](../policies/admin_lite.md)
 - [ ] Talk about expectations in reference to the two prior reviewed documents:
     - [ ] Player versus administrator responsibilities
     - [ ] General responsibilities
     - [ ] Professionalism
-- [ ] Review of the [Tactical Triggernometry Squad Server Rules](../rules/server_rules.md)
+- [ ] Review of the [Tactical Triggernometry Squad Server Rules](../server/server_rules.md)
 - [ ] Learn to use your new tools
-    - [Admin Reference Sheet](./admin_reference.md)
-    - [How to use TT Admin Tools](./how_to_use_tt_admin_tools.md)
+    - [Admin Reference Sheet](./command_reference.md)
+    - [Rules Enforcement](../guides/rules_enforcement.md)
     - Admin Cam: `Left Shift + P`
 - [ ] Helpful Resources:
     - https://squadmaps.com/

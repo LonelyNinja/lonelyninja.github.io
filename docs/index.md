@@ -4,20 +4,14 @@ Title: Home
 
 # Tactical Triggernometry
 
+```
+Insert some instro stuff here
+```
+
 ## Rules
 
-1. [Server Rules](./policies/server_rules.md)
-1. [Rule Refresher](./policies/summary.md)
-
-## Admin Docs
-
-1. [Full Admin Reference](./admin/admin_reference.md)
-1. [Admin Guidelines](./admin/admin_guidelines.md)
-1. [Admin Lite Guidelines](./admin/admin_lite_guidelines.md)
-1. [TT Admin Tools](./admin/how_to_use_tt_admin_tools.md)
-1. [Layer Voting](./admin/layer_voting.md)
-1. [Relations](./admin/tt_relations.md)
-1. [Onboarding Checklist](./admin/onboarding_checklist.md) 
+1. [Server Rules](./server/server_rules.md)
+1. [Rule Refresher](./server/summary.md)
 
 # Squad Approved Layers
 

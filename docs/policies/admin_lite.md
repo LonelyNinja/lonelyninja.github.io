@@ -75,7 +75,7 @@ If you have any questions or concerns regarding player interaction please contac
 
 ## Enforcing the Rules
 
-Have a clear understanding of the [rules and TT primer/ideals](../rules/server_rules.md), but also know where the limit of the admin lite mandate is. Admin lites should be enforcing clear black and white rules that are game-breaking, as well as other severe acts such as teamkilling, offensive language directed at players, severe chat and mic spam, obvious trolling/harming of team, oneman locked squads that aren’t heli/logi/recon vehicles.
+Have a clear understanding of the [rules and TT primer/ideals](../server/server_rules.md), but also know where the limit of the admin lite mandate is. Admin lites should be enforcing clear black and white rules that are game-breaking, as well as other severe acts such as teamkilling, offensive language directed at players, severe chat and mic spam, obvious trolling/harming of team, oneman locked squads that aren’t heli/logi/recon vehicles.
 
 ### Dealing with no mic SLs/non SL kit squads 
 Use your best judgment here, if there aren’t players willing to step up and take over a squad, then constantly kicking or disbanding solves nothing. Do what you think will help the team without fucking overly ignorant/new players. Use warns liberally to save the kicks and disbands for unresponsive. In the end if the squad is working with the team and slightly organized, leave it alone.

@@ -43,7 +43,7 @@ After 12AM EST, stick to “safe” maps to help maintain server population. We 
 
 # SquadJS
 
-See the [Admin Reference Sheet](./command_reference.md) for more concise instructions on how to use SquadJS, a list of commands, and how to use our map voting features.
+See the [Admin Reference Sheet](../reference/command_reference.md) for more concise instructions on how to use SquadJS, a list of commands, and how to use our map voting features.
 
 SquadJS is a program that runs in the background of Squad and is linked to our discord. It reads through and monitors Squad’s game logs, using these logs to automatically perform actions (seeding messages, server name and auto afk kick), create easy to read chat logs on discord that include TKs and admin broadcast(BM doesn’t track either), send !admin pings to a special discord channel, gives live server status updates, and allows ingame administration using the ChatToAdmin chat with specific commands.
 
