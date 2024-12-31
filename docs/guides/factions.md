@@ -46,12 +46,14 @@ Note from LonelyNinja: Capture conventional player/admin wisdom on factions
 ---
 
 In the below image, the color key is:
+
 * BLUE=top 15%
 * GREEN=top 30%
 * YELLOW=bottom 3
 * RED=bottom 15%
 
-The text key is
+The text key is:
+
 * A = Armor
 * T = Transportation
 * L = Logistics
