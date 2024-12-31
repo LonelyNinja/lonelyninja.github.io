@@ -30,6 +30,7 @@ nav:
     - 'Creating Rotations': guides/creating_rotations.md
     - 'Jail/Courthouse': guides/jail_courthouse.md
     - 'Punishment Matrix': guides/punishment_matrix.md
+    - 'Factions': guides/factions.md
   - Reference:
     - 'SquadJS': reference/command_reference.md
     - 'Discord': reference/discord.md
