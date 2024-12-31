@@ -7,6 +7,7 @@ title: Factions/Units
 ```
 Note from LonelyNinja: Capture conventional player/admin wisdom on factions
 ```
+
 * BLUFOR
     * ADF
     * BAF
