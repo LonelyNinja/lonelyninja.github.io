@@ -8,7 +8,7 @@
         
         <link rel="canonical" href="https://lonelyninja.github.io/reference/command_reference/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>SquadJS - Tactical Triggernometry</title>
+        <title>SquadJS Commands - Tactical Triggernometry</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -80,6 +80,18 @@
 </li>
                                     
 <li>
+    <a href="../../guides/punishment_matrix/" class="dropdown-item">Punishment Matrix</a>
+</li>
+                                    
+<li>
+    <a href="../../guides/jail_courthouse/" class="dropdown-item">Jail/Courthouse</a>
+</li>
+                                    
+<li>
+    <a href="../../guides/map_voting/" class="dropdown-item">Map Voting</a>
+</li>
+                                    
+<li>
     <a href="../../guides/AFK_Seeding/" class="dropdown-item">AFK Seeding</a>
 </li>
                                     
@@ -88,19 +100,7 @@
 </li>
                                     
 <li>
-    <a href="../../guides/map_voting/" class="dropdown-item">Map Voting</a>
-</li>
-                                    
-<li>
     <a href="../../guides/creating_rotations/" class="dropdown-item">Creating Rotations</a>
-</li>
-                                    
-<li>
-    <a href="../../guides/jail_courthouse/" class="dropdown-item">Jail/Courthouse</a>
-</li>
-                                    
-<li>
-    <a href="../../guides/punishment_matrix/" class="dropdown-item">Punishment Matrix</a>
 </li>
                                     
 <li>
@@ -113,7 +113,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">SquadJS</a>
+    <a href="./" class="dropdown-item active" aria-current="page">SquadJS Commands</a>
 </li>
                                     
 <li>
@@ -278,9 +278,9 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="intro-squadjs">Intro: SquadJS</h1>
+<h1 id="intro-squadjs">Intro: SquadJS<a class="headerlink" href="#intro-squadjs" title="Permanent link">&para;</a></h1>
 <p>SquadJS is a program that runs in the background of Squad and is linked to our Discord. It reads through and monitors Squad’s game logs, using these logs to automatically perform actions (seeding messages, server name and auto afk kick), create easy to read chat logs on discord that include TKs and admin broadcast(BM doesn’t track either), send !admin pings to a special discord channel, gives live server status updates, and allows ingame administration using the ChatToAdmin chat with specific commands.</p>
-<h1 id="squadjs-interactions">SquadJS Interactions</h1>
+<h1 id="squadjs-interactions">SquadJS Interactions<a class="headerlink" href="#squadjs-interactions" title="Permanent link">&para;</a></h1>
 <p>The syntax to send commands through admin chat is: <code>![command] [playername] [reason]</code></p>
 <p>The [reason] must be more than one word unless you send a shortcut. </p>
 <p><code>!warn playername unlock</code> will warn a player to unlock their squad with the “unlock” shortcut </p>
@@ -288,7 +288,7 @@
 <p><code>!warn playername Stop locking your RWS squad, you must unlock</code> will successfully warn a player with the written message</p>
 <p>Remove spaces in a playername to warn players with spaces. For a player named “Bravo Delta”, the interaction would be: <code>[command] BravoDelta [reason]</code>.  To kick “Bravo Delta” using a solo (solo’ing vehicle) shortcut, use <code>!kick BravoDelta solo</code>.</p>
 <p>SquadJS will attempt to match incomplete player names. This means you may not have to type a full player name.  If we want to warn player Randy Newman with an SLkit shortcut, we can use <code>!warn randy SLkit</code>.  If SquadJS returns an error message, because there is another player named Randy Fuming, we can get more specific and use <code>!warn RandyNew SLkit</code></p>
-<h1 id="squadjs-commands-all-players">SquadJS Commands (all players)</h1>
+<h1 id="squadjs-commands-all-players">SquadJS Commands (all players)<a class="headerlink" href="#squadjs-commands-all-players" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
@@ -323,7 +323,7 @@
 </tr>
 </tbody>
 </table>
-<h1 id="console-admin-commands">Console (~) admin commands</h1>
+<h1 id="console-admin-commands">Console (~) admin commands<a class="headerlink" href="#console-admin-commands" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
@@ -345,7 +345,7 @@
 </tr>
 </tbody>
 </table>
-<h1 id="admin-commands-sent-through-admin-chat">Admin Commands (sent through admin chat)</h1>
+<h1 id="admin-commands-sent-through-admin-chat">Admin Commands (sent through admin chat)<a class="headerlink" href="#admin-commands-sent-through-admin-chat" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
@@ -372,15 +372,15 @@
 </tr>
 <tr>
 <td>!unyeet</td>
-<td>Wipes the ‘!timeout/!yeet’ command ban list</td>
+<td>Wipes the <code>!timeout/!yeet</code> command ban list</td>
 </tr>
 <tr>
 <td>!randomize</td>
-<td>(Use !randomizenext below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap</td>
+<td>(Use <code>!randomizenext</code> below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap</td>
 </tr>
 <tr>
 <td>!randomizenext</td>
-<td>Updated version of !randomize. This command will automatically shuffle the teams after the map switch.</td>
+<td>Updated version of <code>!randomize</code>. This command will automatically shuffle the teams after the map switch.</td>
 </tr>
 <tr>
 <td>!vote option1 option2 [[option3] ...]</td>
@@ -436,15 +436,15 @@
 </tr>
 <tr>
 <td toggle_status_save="toggle,status,save">!autofog</td>
-<td>!autofog toggle will turn off the fog on RAAS automagically. !autofog status will show you the current setting (should be off by default) !autofog save will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off</td>
+<td><code>!autofog toggle</code> will turn off the fog on RAAS automagically. <code>!autofog status</code> will show you the current setting (should be off by default) <code>!autofog save</code> will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off</td>
 </tr>
 <tr>
 <td toggle_status_save="toggle,status,save">!rotation</td>
-<td>!rotation toggle will turn on the server map rotation for Fogless Friday. !rotation status will show the current status. !rotation save will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play</td>
+<td><code>!rotation toggle</code> will turn on the server map rotation for Fogless Friday. <code>!rotation status</code> will show the current status. <code>!rotation save</code> will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play</td>
 </tr>
 </tbody>
 </table>
-<h1 id="reason-shortcuts">[Reason] Shortcuts</h1>
+<h1 id="reason-shortcuts">[Reason] Shortcuts<a class="headerlink" href="#reason-shortcuts" title="Permanent link">&para;</a></h1>
 <p>Instead of typing a reason/message in your !warn, !kick or !kill, you can type any of these shorthands. It will only work as a solo word, not in combo with anything. </p>
 <table>
 <thead>
@@ -560,7 +560,7 @@
 </tr>
 </tbody>
 </table>
-<h1 id="pre-made-broadcasts-typed-into-admin-chat">Pre-made broadcasts (typed into admin chat)</h1>
+<h1 id="pre-made-broadcasts-typed-into-admin-chat">Pre-made broadcasts (typed into admin chat)<a class="headerlink" href="#pre-made-broadcasts-typed-into-admin-chat" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
@@ -655,16 +655,16 @@
 </tr>
 </tbody>
 </table>
-<h1 id="custom-map-vote-plugin">Custom Map Vote Plugin</h1>
+<h1 id="custom-map-vote-plugin">Custom Map Vote Plugin<a class="headerlink" href="#custom-map-vote-plugin" title="Permanent link">&para;</a></h1>
 <p>OWI’s voting allows blueberries to choose wildly unbalanced matchups, degrading players’ experiences. To combat this, TT implemented an overhauled voting system that uses javascript commands. Here’s how it works and how to use it.</p>
-<h2 id="whats-under-the-hood">What’s under the hood</h2>
+<h2 id="whats-under-the-hood">What’s under the hood<a class="headerlink" href="#whats-under-the-hood" title="Permanent link">&para;</a></h2>
 <p>Each sub-faction is assigned a “strength score” based on its characteristics e.g., number of heavily armored vehicles. Similarly-scored (and theoretically balanced) sub-factions are matched with each other and listed in a spreadsheet, here.</p>
 <p>TT admins can use a series of javascript commands to pull a list of three balanced match ups from the spreadsheet, creating a pool of layer options, and then command the server to run a vote on this pool, and set the winner as the next layer.</p>
-<h2 id="how-to-run-a-vote">How to run a vote</h2>
+<h2 id="how-to-run-a-vote">How to run a vote<a class="headerlink" href="#how-to-run-a-vote" title="Permanent link">&para;</a></h2>
 <p>No one likes repetition: start with the command <code>!maps</code> to review what layers have been played recently.Then, generate a pool of voting options with <code>!genpool</code>. </p>
 <p>To see what the current pool is, run <code>!pool</code>. Not happy with the options? Use <code>!genpool</code> again, or use <code>!reroll</code> if you want to run the same parameters that was run last. This command will preserve the filters you had previously added to <code>!genpool</code> (more on that below)</p>
 <p><code>!rockthevote</code> will open the polls: the server will run a vote using the pool’s layers and then automatically set the winner.</p>
-<h2 id="how-to-use-filters">How to use filters</h2>
+<h2 id="how-to-use-filters">How to use filters<a class="headerlink" href="#how-to-use-filters" title="Permanent link">&para;</a></h2>
 <p>Admins can add filters to the <code>!genpool</code> command to customize the layer pool. </p>
 <table>
 <thead>
@@ -727,7 +727,7 @@
 </tr>
 </tbody>
 </table>
-<h1 id="list-of-commands">List of commands</h1>
+<h1 id="list-of-commands">List of commands<a class="headerlink" href="#list-of-commands" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
@@ -750,7 +750,7 @@
 </tr>
 <tr>
 <td>!reroll &lt;1, 2, 3&gt;</td>
-<td>Rerolls the mappool with the previous parameters, <em>AND</em> rerolls the option with given indexes. For example, !reroll 2 3 would run the pool generation with the previous commands <em>and</em> reroll the 2nd and 3rd pick in the pool</td>
+<td>Rerolls the map pool with the previous parameters, <em>AND</em> rerolls the option with given indexes. For example, <code>!reroll 2 3</code> would run the pool generation with the previous commands <em>and</em> reroll the 2nd and 3rd pick in the pool</td>
 </tr>
 <tr>
 <td>!rockthevote OR !rtv</td>
@@ -762,20 +762,23 @@
 </tr>
 <tr>
 <td>!runoff</td>
-<td>Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using !vote) and mappool votes(started by !rtv)</td>
+<td>Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using <code>!vote</code>) and mappool votes(started by <code>!rtv</code>)</td>
 </tr>
 <tr>
 <td>!setwinner</td>
-<td>Sets the next map to the winner of the vote. . Currently mostly redundant, since this is set to happen automatically, but is kept as a redundancy/fallback option should the automation of it be turned off in the future</td>
+<td>Sets the next map to the winner of the vote. Currently mostly redundant, since this is set to happen automatically, but is kept as a redundancy/fallback option should the automation of it be turned off in the future</td>
 </tr>
 </tbody>
 </table>
-<h1 id="set-a-layer-without-a-vote">Set a layer (without a vote)</h1>
+<h1 id="set-a-layer-without-a-vote">Set a layer (without a vote)<a class="headerlink" href="#set-a-layer-without-a-vote" title="Permanent link">&para;</a></h1>
 <p>Even if it’s the depths of gremlin hours, you can use this system to generate and set particular layers.</p>
 <p>If it's too late in the round to run a map vote—or you are in gremlin hours—use the command <code>!setpool &lt;1, 2, or 3&gt;</code> to set the next layer from the generated map pool. Each number refers to the index of the generated map pool.</p>
-<h1 id="server-admin-console-commands">Server Admin Console Commands</h1>
-<p>—----------KEEP USE OF THESE MINIMAL. ONLY USE THESE IF THE OTHER SERVICES GO DOWN OR DON’T WORK</p>
-<p>https://squad.gamepedia.com/Server_Administration#Admin_Console_Commands </p></div>
+<h1 id="server-admin-console-commands">Server Admin Console Commands<a class="headerlink" href="#server-admin-console-commands" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>KEEP USE OF THESE MINIMAL. ONLY USE THESE IF THE OTHER SERVICES GO DOWN OR DON’T WORK</p>
+</div>
+<p>See <a href="https://squad.gamepedia.com/Server_Administration#Admin_Console_Commands">Gamepedia's Reference for Server Administration Commands</a></p></div>
             </div>
         </div>
 

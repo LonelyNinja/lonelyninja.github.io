@@ -80,6 +80,18 @@
 </li>
                                     
 <li>
+    <a href="../punishment_matrix/" class="dropdown-item">Punishment Matrix</a>
+</li>
+                                    
+<li>
+    <a href="../jail_courthouse/" class="dropdown-item">Jail/Courthouse</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Map Voting</a>
+</li>
+                                    
+<li>
     <a href="../AFK_Seeding/" class="dropdown-item">AFK Seeding</a>
 </li>
                                     
@@ -88,19 +100,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Map Voting</a>
-</li>
-                                    
-<li>
     <a href="../creating_rotations/" class="dropdown-item">Creating Rotations</a>
-</li>
-                                    
-<li>
-    <a href="../jail_courthouse/" class="dropdown-item">Jail/Courthouse</a>
-</li>
-                                    
-<li>
-    <a href="../punishment_matrix/" class="dropdown-item">Punishment Matrix</a>
 </li>
                                     
 <li>
@@ -113,7 +113,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../reference/command_reference/" class="dropdown-item">SquadJS</a>
+    <a href="../../reference/command_reference/" class="dropdown-item">SquadJS Commands</a>
 </li>
                                     
 <li>
@@ -150,12 +150,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../seeding/" class="nav-link">
+                                <a rel="prev" href="../jail_courthouse/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../creating_rotations/" class="nav-link">
+                                <a rel="next" href="../AFK_Seeding/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -243,20 +243,20 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="quick-up-front-guidance">Quick Up-Front Guidance</h1>
+<h1 id="quick-up-front-guidance">Quick Up-Front Guidance<a class="headerlink" href="#quick-up-front-guidance" title="Permanent link">&para;</a></h1>
 <ul>
 <li>Try not to set premium maps back-to-back-to-back.  Mix in some flavor</li>
 <li>Set safe maps at night (after 11:30 EST)</li>
 <li>Use <code>!maps</code> or <code>#maps-played</code> to prevent setting the same map twice in quick succession</li>
 <li>If you're newer and nobody more experienced is on or you can't get feedback, either let the map roll or just use <code>!genpool</code> and <code>!setnext</code> to avoid something catastrophic that was automatically set.</li>
 </ul>
-<h1 id="from-randy-keeping-the-server-fun">From Randy: Keeping the Server Fun</h1>
+<h1 id="from-randy-keeping-the-server-fun">From Randy: Keeping the Server Fun<a class="headerlink" href="#from-randy-keeping-the-server-fun" title="Permanent link">&para;</a></h1>
 <blockquote>
 <p>A good rule is when you're going apeshit, you should go apeshit on 1 thing</p>
 <p>-- Randy Newman</p>
 </blockquote>
 <p>If it's a non-standard faction layout - give them an OK map. If it's an Anvil, give them OK factions, and so forth.  Very rarely should you go apeshit on 2 out of 3, and basically never 3 out of 3.</p>
-<h1 id="guidelines-for-map-votes">Guidelines for Map Votes</h1>
+<h1 id="guidelines-for-map-votes">Guidelines for Map Votes<a class="headerlink" href="#guidelines-for-map-votes" title="Permanent link">&para;</a></h1>
 <p>Admins are encouraged to set maps and start map votes. Map decisions are agreed upon through admin chat. See the Admin Reference Sheet for instructions on how to initiate a map vote.  These guidelines are non-exhaustive:</p>
 <p>Avoid repeating recently played maps. Use the <code>!maps</code> command or check the <code>#maps-played</code> channel for a list of recent maps.</p>
 <p>Discuss options with all other admins and allow time for replies. Do not surprise admins with a “sneak set” or surprise vote. Utilize an <code>!admin</code> ping to alert other admins when a map discussion takes place.</p>
@@ -265,11 +265,11 @@
 <p>Avoid last minute map scrambles. We can comfortably figure out map and vote choices in the first fifteen minutes of a game.</p>
 <p>Game mode votes, map size votes, or specific layer votes are acceptable methods to select the next map. Sequential votes (e.g. first vote map size, second vote map) are encouraged when time permits.</p>
 <p>You can find the layer information spreadsheet pinned in the #admin-bulletin Discord channel. Further information can be found at https://squadmaps.com/ and https://squadlanes.com/</p>
-<h1 id="squadjs">SquadJS</h1>
+<h1 id="squadjs">SquadJS<a class="headerlink" href="#squadjs" title="Permanent link">&para;</a></h1>
 <p>See the <a href="../../reference/command_reference/">Admin Reference Sheet</a> for more complete instructions on how to use SquadJS, a list of commands, and how to use our map voting features.</p>
-<h2 id="basic-lame-voting">Basic (lame) Voting</h2>
+<h2 id="basic-lame-voting">Basic (lame) Voting<a class="headerlink" href="#basic-lame-voting" title="Permanent link">&para;</a></h2>
 <p>We have the ability to run custom votes through admin chat using <code>!vote option1 option2 option3 ...</code>. The vote will last for 3 minutes (currently) and automatically end after or end with the use of <code>!endvote</code>. Votes can be registered in any type of chat by typing the option number. Votes can only be set or ended in admin chat. At the end of the vote, the overall winner will be broadcast to the server along with all vote tallies. This does not set any map and the options can be anything.</p>
-<h2 id="custom-map-vote-plugin">Custom Map Vote Plugin</h2>
+<h2 id="custom-map-vote-plugin">Custom Map Vote Plugin<a class="headerlink" href="#custom-map-vote-plugin" title="Permanent link">&para;</a></h2>
 <p>OWI’s voting allows blueberries to choose wildly unbalanced matchups, degrading players’ experiences. To combat this, TT implemented an overhauled voting system that uses javascript commands. Here’s how it works and how to use it.</p>
 <p>Under the hood, each sub-faction is assigned a “strength score” based on its characteristics e.g., number of heavily armored vehicles. Similarly-scored (and theoretically balanced) sub-factions are matched with each other and listed in a spreadsheet, here.</p>
 <p>TT admins can use a series of javascript commands to:
@@ -277,7 +277,7 @@
 * Create a pool of layer options
 * Command the server to run a vote on this pool
 * Set the winner as the next layer.</p>
-<h2 id="how-to-run-a-vote">How to run a vote</h2>
+<h2 id="how-to-run-a-vote">How to run a vote<a class="headerlink" href="#how-to-run-a-vote" title="Permanent link">&para;</a></h2>
 <p>No one likes repetition: start with the command <code>!maps</code> to review what layers have been played recently.  Then, generate a pool of voting options with <code>!genpool</code>. To see what the current pool is, run <code>!pool</code>. Not happy with the options? Use <code>!reroll</code>. This command will preserve the filters you had previously added to !genpool (more on that below.)</p>
 <p><code>!rockthevote</code> will open the polls.  The server will run a vote using the pool’s layers and then automatically set the winner.</p>
 <p>Discord “server chat” channel commands(won’t work ingame)</p>
