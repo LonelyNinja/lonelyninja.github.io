@@ -14,15 +14,12 @@ The TacTrig discord can be found here: https://www.discord.io/trig
 
 Enjoy the server? Want to skip the queue? Head over to discord to apply for whitelist!
 
----
-
 # Section 1: The TacTrig Primer
 
 At TacTrig, we do not merely have a set of rules (though, of course we have those), we have a primer. The primer is best viewed as a set of guiding principles. All our rules flow from our primer.
 
 If the administration team feels that a player, or a group of players is in consistent violation of this primer, we reserve the right to remove them from our community.
 
----
 
 # Section 2: TacTrig Policies
 
@@ -70,15 +67,13 @@ All players must join a squad. Unassigned players shall be considered AFK and ki
 
 Any discussion of tickets in all chat is strictly prohibited. At no point should anyone share ticket counts or any information that may be used to gain an advantage (e.g. location of FOBs, vehicles, etc.) with the other team. We take integrity and fair play very seriously.
 
-Intentional teamkilling is strictly prohibited, for any reason. See [section 3.2](#teamkiling) on teamkilling.
+Intentional teamkilling is strictly prohibited, for any reason. See [section 3.2](#teamkilling) on teamkilling.
 
 Squad leaders may kick a player from their squad for any reason and at any time.
 
 We do not allow advertising, both in chat or with your in-game name.
 
 When streaming it is required to have at least a 2-minute delay and to have an auto overlay that covers the map and pertinent game info on your stream. Your in-game name must not advertise that you are streaming (twitch, youtube, ttv).
-
----
 
 # Section 3: Gameplay Rules
 
@@ -110,7 +105,7 @@ Camping enemy main bases is not tolerated. See section 3.5 on base camping.
 
 Teamwork is required on our server and in our community. This means that if you are playing in a way detrimental to the team, including not communicating with the team, then you may be removed from the server.
 
-## Section 3.2: <a href="#teamkilling"></a>Teamkilling
+## Section 3.2: Teamkilling { #teamkilling }
 
 Intentional teamkilling is strictly prohibited. Retaliatory teamkilling is prohibited. If a player is trolling, or teamkilling, contact an admin. You should acknowledge and apologize for teamkills in all chat. Not acknowledging teamkills may result in admin action against you.
 
@@ -174,7 +169,6 @@ If an admin considers your actions base camping, you will be warned. Failure to 
 
 Maliciously ruining the gameplay for the other team is unacceptable.
 
----
 
 # Section 4: Seeding Rules
 

@@ -12,6 +12,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - toc:
+      permalink: true
 nav:
   - Home: index.md
   - 'Server Rules':
@@ -24,12 +26,12 @@ nav:
     - 'Command' : policies/command.md
   - Guides:
     - 'Rules Enforcement': guides/rules_enforcement.md
+    - 'Punishment Matrix': guides/punishment_matrix.md
+    - 'Jail/Courthouse': guides/jail_courthouse.md
+    - 'Map Voting': guides/map_voting.md
     - 'AFK Seeding': guides/AFK_Seeding.md
     - 'Seeding': guides/seeding.md
-    - 'Map Voting': guides/map_voting.md
     - 'Creating Rotations': guides/creating_rotations.md
-    - 'Jail/Courthouse': guides/jail_courthouse.md
-    - 'Punishment Matrix': guides/punishment_matrix.md
     - 'Factions': guides/factions.md
   - Reference:
     - 'SquadJS': reference/command_reference.md
@@ -37,5 +39,5 @@ nav:
     - 'BattleMetrics': reference/battlemetrics.md
     - 'Patreon': reference/patreon.md
     - 'Server Management': reference/servermgmt.md
-    - 'Onboarding Admin-Lite': reference/onboarding_checklist.md 
+    - 'Onboarding Admin-Lite': reference/onboarding_checklist.md
     - 'Whitelist': reference/whitelist.md
