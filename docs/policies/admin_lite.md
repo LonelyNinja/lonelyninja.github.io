@@ -1,6 +1,16 @@
 ---
 title: Admin Lite
 ---
+
+# TL;DR
+
+The gist is:
+
+* Represent TT in a positive light when you're playing
+* Watch for egregious issues (racism, teamm killing, cheats, solo vehicles, kit issues, toxicity, etc.)
+* Help with map voting
+* When in doubt, go to a HQ member for help
+
 # Admin Lite Responsibilities
 
 We ask Lites to take action when they observe a rules violation and  investigate player reports. 
