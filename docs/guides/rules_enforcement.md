@@ -147,17 +147,17 @@ Don’t immediately jump to intent. Violations of the rules of thumb cover the m
 * Timing is important. Loitering is a sin. A poorly placed mortar FOB does not give carte blanche to sit outside a team’s main for the rest of the game. A Chora game that ends with a team running from main to their first flag is probably long over.
 * No free lunch. No one-way safety zones. Assets should not position themselves outside MBP, then cry foul when they are engaged. 
 
-Most base camping scenarios are solved by a simple warning to move. Repeat offenders should be noted and discussed in #problem-players.
+Most base camping scenarios are solved by a simple warning to move. Repeat offenders should be noted and discussed in `#problem-players`.
 
-You can find past BCC rulings in an #admin-barracks thread. 
+You can find past BCC rulings in an `#admin-barracks` thread. 
 
 ## Base Camping Conflict Resolution & the BCC: 
 
-Admin disagreement about base camping should move to #base-camping in Discord.  If an agreement cannot be reached by in-game admins, the stricter assessment of the situation by an HQ member will stand in the moment.
+Admin disagreement about base camping should move to `#base-camping` in Discord.  If an agreement cannot be reached by in-game admins, the stricter assessment of the situation by an HQ member will stand in the moment.
 
 Please take Admin Cam screenshots of disputed situations. 
 
-The Base Camping Committee (BCC) will read, oversee, and participate in #base-camping. Admins that disagree with calls and interpretations will start a constructive discussion on that situation. Other admins may contribute their informed opinions and considerations.
+The Base Camping Committee (BCC) will read, oversee, and participate in `#base-camping`. Admins that disagree with calls and interpretations will start a constructive discussion on that situation. Other admins may contribute their informed opinions and considerations.
 
 The BCC, made up of 3 members of HQ, and overseen by Kirb will assess the situation. Internally, the BCC will vote on it and render a decision. This decision will be a majority decision by the committee with Kirb able to overrule it. The ruling will come with an explanation of the situation and how it may apply in the future. This decision will become the standard and overrule individual opinions of admins. If HQ disagrees with this interpretation of the rules and situation, they can overrule the decision through a majority vote.
 

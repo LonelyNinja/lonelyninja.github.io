@@ -48,9 +48,9 @@ SquadJS will attempt to match incomplete player names. This means you may not ha
 |!kick playername reason|Kicks player from server, reason required. No timeout, players can rejoin instantly|
 |!yeet playername reason|Kicks player from server, reason required. Natural 5 minute re-join cooldown. Reason **REQUIRED**|
 |!timeout playername reason|Kicks and bans a player from the server for 1 hour. When used this command prevents the player from accruing points on SCBL. A “timeout” for more minor infractions. |
-|!unyeet|Wipes the ‘!timeout/!yeet’ command ban list|
-|!randomize|(Use !randomizenext below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap|
-|!randomizenext|Updated version of !randomize. This command will automatically shuffle the teams after the map switch.|
+|!unyeet|Wipes the `!timeout/!yeet` command ban list|
+|!randomize|(Use `!randomizenext` below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap|
+|!randomizenext|Updated version of `!randomize`. This command will automatically shuffle the teams after the map switch.|
 |!vote option1 option2 [[option3] ...]|Initiates a 3 minute server wide vote. Used for map votes. Remember to set the next map in BattleMetrics after the vote is completed.  Example(s): <br/> `!vote belaya kamdesh kohat`<br/>  `!vote urban desert forest`|
 |!endvote|Prematurely ends a vote in progress. End a vote early if you are cutting it close with the 3 minute map vote and the game’s end approaches|
 |!runoff|Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using `!vote`) and mappool votes(started by `!rtv`).|
@@ -64,8 +64,8 @@ SquadJS will attempt to match incomplete player names. This means you may not ha
 |!tickets|Displays detailed information about the past 6 games, including layer, factions and ticket differential. Repeats 3 times||
 |!switchnext playername|This command will automatically switch a player to the other team at the beginning of the next map| 
 |!switchnow playername|Switches a player instantly from one team to another|
-|!autofog {toggle,status,save} |!autofog toggle will turn off the fog on RAAS automagically. !autofog status will show you the current setting (should be off by default) !autofog save will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off|
-|!rotation {toggle,status,save}|!rotation toggle will turn on the server map rotation for Fogless Friday. !rotation status will show the current status. !rotation save will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play|
+|!autofog {toggle,status,save} |`!autofog toggle` will turn off the fog on RAAS automagically. `!autofog status` will show you the current setting (should be off by default) `!autofog save` will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off|
+|!rotation {toggle,status,save}|`!rotation toggle` will turn on the server map rotation for Fogless Friday. `!rotation status` will show the current status. `!rotation save` will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play|
 
 # [Reason] Shortcuts
 
@@ -175,11 +175,11 @@ To use these filters, simply add additional text to the command, separated by sp
 |!pool|View the generated pool of layers|
 |!genpool|Generates a pool of maps using the TT approved map list|
 |!reroll|Regenerate the layer pool using the same filters used in the previous !genpool, saving you time|
-|!reroll <1, 2, 3>|Rerolls the mappool with the previous parameters, *AND* rerolls the option with given indexes. For example, !reroll 2 3 would run the pool generation with the previous commands *and* reroll the 2nd and 3rd pick in the pool|
+|!reroll <1, 2, 3>|Rerolls the map pool with the previous parameters, *AND* rerolls the option with given indexes. For example, `!reroll 2 3` would run the pool generation with the previous commands *and* reroll the 2nd and 3rd pick in the pool|
 |!rockthevote OR !rtv|Run the vote using the generated pool|
 |!setnext <1, 2, 3>|Sets next map to whatever index indicated in the parameter (1, 2, or 3)|
-|!runoff|Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using !vote) and mappool votes(started by !rtv)|
-|!setwinner|Sets the next map to the winner of the vote. . Currently mostly redundant, since this is set to happen automatically, but is kept as a redundancy/fallback option should the automation of it be turned off in the future|
+|!runoff|Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using `!vote`) and mappool votes(started by `!rtv`)|
+|!setwinner|Sets the next map to the winner of the vote. Currently mostly redundant, since this is set to happen automatically, but is kept as a redundancy/fallback option should the automation of it be turned off in the future|
 
 
 # Set a layer (without a vote)
@@ -190,6 +190,9 @@ If it's too late in the round to run a map vote—or you are in gremlin hours—
 
 # Server Admin Console Commands
 
-—----------KEEP USE OF THESE MINIMAL. ONLY USE THESE IF THE OTHER SERVICES GO DOWN OR DON’T WORK
+!!! warning 
 
-https://squad.gamepedia.com/Server_Administration#Admin_Console_Commands 
+    KEEP USE OF THESE MINIMAL. ONLY USE THESE IF THE OTHER SERVICES GO DOWN OR DON’T WORK
+
+See [Gamepedia's Reference for Server Administration Commands](https://squad.gamepedia.com/Server_Administration#Admin_Console_Commands)
+ 

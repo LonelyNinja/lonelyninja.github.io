@@ -34,7 +34,7 @@ nav:
     - 'Creating Rotations': guides/creating_rotations.md
     - 'Factions': guides/factions.md
   - Reference:
-    - 'SquadJS': reference/command_reference.md
+    - 'SquadJS Commands': reference/command_reference.md
     - 'Discord': reference/discord.md
     - 'BattleMetrics': reference/battlemetrics.md
     - 'Patreon': reference/patreon.md

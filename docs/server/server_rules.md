@@ -20,7 +20,6 @@ At TacTrig, we do not merely have a set of rules (though, of course we have thos
 
 If the administration team feels that a player, or a group of players is in consistent violation of this primer, we reserve the right to remove them from our community.
 
-
 # Section 2: TacTrig Policies
 
 Before we lay out the rules, it must be said that Discord is a requirement for appealing any admin behaviour be they kicks, bans or other actions. We require you to be mature and display a basic level of decorum and in return, we promise to treat you with respect.
@@ -79,11 +78,11 @@ When streaming it is required to have at least a 2-minute delay and to have an a
 
 At Tactical Triggernometry, we take a more serious approach to gameplay. If you play on our server, you are also expected to take a serious approach to the game. To encourage teamwork and good gameplay, we enforce the following rules:
 
-## Section 3.1 General
+## Section 3.1 General {#general}
 
 All squad leaders **MUST HAVE WORKING MICROPHONES**, actively lead their squad, and cooperate with other squad leaders.
 
-All infantry squads must be led by an infantry squad leader, no exceptions. See section 3.4 on squad composition. 
+All infantry squads must be led by an infantry squad leader, no exceptions. See [section 3.4](#composition) on squad composition. 
 
 Players who create a squad MUST have every intention to lead the squad. Players who do not abide by this are prohibited. SL "hot potato" is not tolerated.
 
@@ -101,7 +100,7 @@ One-manning: Any vehicle worth 5 tickets or fewer can be one-manned. All vehicle
 
 If you find your vehicle one-manned in the field due to a crewmember disconnecting or getting killed, you must attempt to return to main or fall back to a safe HAB to pick up another crew member at the earliest available opportunity.
 
-Camping enemy main bases is not tolerated. See section 3.5 on base camping.
+Camping enemy main bases is not tolerated. See [section 3.5](#base-camping) on base camping.
 
 Teamwork is required on our server and in our community. This means that if you are playing in a way detrimental to the team, including not communicating with the team, then you may be removed from the server.
 
@@ -109,7 +108,7 @@ Teamwork is required on our server and in our community. This means that if you 
 
 Intentional teamkilling is strictly prohibited. Retaliatory teamkilling is prohibited. If a player is trolling, or teamkilling, contact an admin. You should acknowledge and apologize for teamkills in all chat. Not acknowledging teamkills may result in admin action against you.
 
-## Section 3.3: Asset Waste
+## Section 3.3: Asset Waste {#asset-waste}
 
 Intentionally and maliciously wasting assets is strictly prohibited. We do not consider simply making bad decisions with assets such as tanks and helicopters as asset waste.
 
@@ -121,7 +120,7 @@ However, gross negligence will be construed as asset waste. For example:
 * Losing vehicle after vehicle, or egregiously flying helicopters into enemy fire may be considered as asset waste. A player will be warned by an admin to cease this behaviour before admin action is taken against them.
 * Digging down friendly FOBs/HABs maliciously or destroying friendly vehicles without a valid reason is also prohibited. There are exceptions; For example, it is appropriate to dig down friendly FOBs in certain situations or to destroy unrecoverable abandoned vehicles. In general, such actions are only allowed when ordered by a squad leader and must not be performed with malicious intent.
 
-## Section 3.4: Squad Roles/Composition
+## Section 3.4: Squad Roles/Composition { #composition }
 
 We do not want squads whose squad leaders are busy operating vehicles or free kitting while the remaining members wander the map.
 
@@ -149,7 +148,7 @@ Squad leaders using another kit due to a “field situation” (repair, building
 
 If an admin tells you to get an infantry squad leader kit, you must switch to an infantry squad leader at the earliest available opportunity.
 
-## Section 3.5: Main Base Camping
+## Section 3.5: Main Base Camping {#base-camping}
 
 We deal with Main Base Camping on our server on a case-by-case basis. Admin discretion is final. If there are issues or disagreements, bring them to discord.
 
