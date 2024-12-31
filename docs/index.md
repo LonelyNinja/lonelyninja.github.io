@@ -28,4 +28,5 @@ Also, please note that this documentation is searchable using the magnifying cla
 * [OWI code of conduct](https://joinsquad.com/code-of-conduct/)
 * [My Squad Stats](https://mysquadstats.com/)
 * [Squad Maps](https://squadmaps.com/)
+* [Squad Armor](https://squad-armor.com/)
 * [TT Roles](http://tacticaltriggernometry.com/)
