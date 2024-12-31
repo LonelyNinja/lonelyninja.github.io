@@ -92,6 +92,10 @@
 </li>
                                     
 <li>
+    <a href="../creating_rotations/" class="dropdown-item">Creating Rotations</a>
+</li>
+                                    
+<li>
     <a href="../jail_courthouse/" class="dropdown-item">Jail/Courthouse</a>
 </li>
                                     
@@ -105,7 +109,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../reference/command_reference/" class="dropdown-item">Full SquadJS Reference</a>
+    <a href="../../reference/command_reference/" class="dropdown-item">SquadJS</a>
 </li>
                                     
 <li>
@@ -198,12 +202,73 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#tt-seeding-guidelines" class="nav-link">TT Seeding Guidelines</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#afk-seeding" class="nav-link">AFK Seeding</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#potato-mode" class="nav-link">Potato mode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#one-time-setup-after-making-changes" class="nav-link">One-time Setup after Making Changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#auto-shutdown" class="nav-link">Auto-shutdown</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#auto-kill" class="nav-link">Auto-Kill</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="tt-seeding-guidelines">TT Seeding Guidelines</h1>
+<p>The purpose of this document is to help get people on to get the TT server active early.</p>
+<h1 id="afk-seeding">AFK Seeding</h1>
+<p>The key to a viable server is timely seeding. To ensure this, we ask for your help! The easiest way to help the server is the following:</p>
+<p>Set game to “potato mode” (explained below)</p>
+<p>Set an auto shutdown timer (explained below)</p>
+<p>Join the server between the hours of 7AM-12PM Eastern (depending on your work/study routine) and AFK.</p>
+<p>That’s it! Your PC will auto shutdown at the requisite time, and you can come home to a full server at minimal effort!</p>
+<h2 id="potato-mode">Potato mode</h2>
+<p>Putting the game in an extreme low setting mode reduces power and memory consumption to negligible amounts. For example, with squad running in “potato mode,” I can play heavily demanding games such as Red Dead Redemption 2 simultaneously at perfect FPS on a fairly non-remarkable PC!</p>
+<p>Potato mode settings:</p>
+<ul>
+<li>Resolution 1024 * 768, in “Windowed” mode</li>
+<li>Resolution scale = 50</li>
+<li>Max FPS (Game &amp; Menu) = 20</li>
+<li>Graphics Quality = Low</li>
+<li>Scope Resolution scale = 50 (this one doesn’t matter for AFK seeding really)</li>
+<li>Anti-Aliasing OFF </li>
+<li>Upscaling OFF</li>
+<li>All settings from Textures to Post Processing at the lowest possible setting.</li>
+<li>Everything remotely fancy turned off (Wake simulation, Lens Flares, etc)</li>
+</ul>
+<p>It looks something like this:
+<img alt="Squad Game Config" src="../squad_config.png" /></p>
+<p>While Squad is running in this mode, AFK seeding consumes minimal resources!</p>
+<h2 id="one-time-setup-after-making-changes">One-time Setup after Making Changes</h2>
+<p>Once you have made these changes, you can save them so that you don’t have to do this every time. Open %LOCALAPPDATA%\SquadGame\Saved\Config and copy your WindowsNoEditor directory to WindowsNoEditor.potato.  For your active game settings, you can do the same and name it WindowsNoEditor.active.  When you want to  AFK seed, rename the WindowsNoEditor.potato (the potato config) directory to WindowsNoEditor. When you want to play, rename the WindowsNoEditor.active (the good config) directory to WindowsNoEditor.  Easy-peasy!</p>
+<p><img alt="Squad Config Folder" src="../squad_config_folder.png" /></p>
+<h2 id="auto-shutdown">Auto-shutdown</h2>
+<p>You should set your PC to auto shutdown at some time around 3PM EST, give or take 30 minutes. The way to do this easily is to open up command prompt and type the following command:</p>
+<p><div class="highlight"><pre><span></span><code>shutdown /s /t [Insert number in seconds]
+</code></pre></div>
+For example, if I wanted my PC to shutdown in 4 hours, I would type: <code>shutdown /s /t 14400</code> where 14,400 seconds is the amount of seconds in 4 hours:</p>
+<p>The more that people can do this, the better off the server will be!</p>
+<h2 id="auto-kill">Auto-Kill</h2>
+<p>If you don’t want to shutdown your computer, you can create a batch file to kill Squad after some period of time.  Change 7200 to however many seconds you want to wait before killing it.  Double-click file, win!</p></div>
             </div>
         </div>
 

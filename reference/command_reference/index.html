@@ -8,7 +8,7 @@
         
         <link rel="canonical" href="https://lonelyninja.github.io/reference/command_reference/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Full SquadJS Reference - Tactical Triggernometry</title>
+        <title>SquadJS - Tactical Triggernometry</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -92,6 +92,10 @@
 </li>
                                     
 <li>
+    <a href="../../guides/creating_rotations/" class="dropdown-item">Creating Rotations</a>
+</li>
+                                    
+<li>
     <a href="../../guides/jail_courthouse/" class="dropdown-item">Jail/Courthouse</a>
 </li>
                                     
@@ -105,7 +109,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Full SquadJS Reference</a>
+    <a href="./" class="dropdown-item active" aria-current="page">SquadJS</a>
 </li>
                                     
 <li>
@@ -199,7 +203,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#tt-admin-command-reference-sheet" class="nav-link">TT Admin Command Reference Sheet</a>
+            <li class="nav-item" data-bs-level="1"><a href="#intro-squadjs" class="nav-link">Intro: SquadJS</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -270,21 +274,8 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="tt-admin-command-reference-sheet">TT Admin Command Reference Sheet</h1>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h1 id="intro-squadjs">Intro: SquadJS</h1>
+<p>SquadJS is a program that runs in the background of Squad and is linked to our Discord. It reads through and monitors Squad’s game logs, using these logs to automatically perform actions (seeding messages, server name and auto afk kick), create easy to read chat logs on discord that include TKs and admin broadcast(BM doesn’t track either), send !admin pings to a special discord channel, gives live server status updates, and allows ingame administration using the ChatToAdmin chat with specific commands.</p>
 <h1 id="squadjs-interactions">SquadJS Interactions</h1>
 <p>The syntax to send commands through admin chat is: <code>![command] [playername] [reason]</code></p>
 <p>The [reason] must be more than one word unless you send a shortcut. </p>
@@ -440,11 +431,11 @@
 <td>Switches a player instantly from one team to another</td>
 </tr>
 <tr>
-<td>!autofog {toggle,status,save}</td>
+<td toggle_status_save="toggle,status,save">!autofog</td>
 <td>!autofog toggle will turn off the fog on RAAS automagically. !autofog status will show you the current setting (should be off by default) !autofog save will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off</td>
 </tr>
 <tr>
-<td>!rotation {toggle,status,save}</td>
+<td toggle_status_save="toggle,status,save">!rotation</td>
 <td>!rotation toggle will turn on the server map rotation for Fogless Friday. !rotation status will show the current status. !rotation save will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play</td>
 </tr>
 </tbody>
