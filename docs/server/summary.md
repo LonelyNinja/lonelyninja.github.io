@@ -8,15 +8,15 @@ This is meant as a **refresher only**.  Before you play for the first time, plea
 
 # TT Rules Summary
 
-```
-All disagreements will be handled in TT Discord #contact-admins or #ban-appeals 
-```
+!!! note 
+    All disagreements will be handled in TT Discord `#contact-admins` or `#ban-appeals` 
+
 * Global 
     * In game, use `!admin <msg>` to get in touch with an admin
     * Be respectful; the TT community does not tolerate any racist, sexist, or otherwise bigoted remarks 
-    * Teamwork is required
+    * Teamwork is **required**
     * Intentional teamkilling is prohibited
-    * Main camping - See the [full rules](./server_rules.md) for the definition of main camping
+    * Main camping - See the [full rules](./server_rules.md) for a discussion of main camping
     * Intentional or severely negligent asset wasting is prohibited - See [full rules](./server_rules.md) for what comprises asset waste
 * Squad Leaders
     * Squad Leaders must have microphones 
@@ -27,7 +27,7 @@ All disagreements will be handled in TT Discord #contact-admins or #ban-appeals
     * Helicopter ramming is prohibited
     * Any vehicle worth 5 tickets or fewer can be one-manned. All vehicles worth 10 or more tickets that require crewman kits cannot be one manned (must not leave main without 2+ crewmen)
 * Squad Composition
-    * Crew-led squads must follow the `|_((N+1) / 2)_|` rule
+    * Crew-led squads must follow the `|_((N+1) / 2)_|` rule (can have at most one "extra" non-crew member)
     * One-man locked squads are prohibited, with the exception of:
         * Helicopters
         * Logistics 

@@ -6,7 +6,7 @@ title: All Admins
 
 > And at the end of the day, I keep saying it, it’s a fucking volunteer club guys. Just have a good time.
 >  
-> Bulltwinkle, 2022
+> -- Bulltwinkle, 2022
 
 ## Civility Policy
 Civility is essential for a group of 100+ people from all over the world to get along.
@@ -36,9 +36,6 @@ Disagreements in-game that are not resolved after a few minutes should end. Game
 Any admin may request any other admin to meet in VOIP. This request will obligate both admins to meet for a VOIP discussion. If no resolution can be reached through VOIP, shelve the topic and message a HQ, Relations, or Command member.
 
 To ignore a VOIP request in order to play the game is a violation of policy. Unreasonable use or abuse of the VOIP request policy will be harshly scrutinized.
-
-
-
 
 # Guidelines for Communication
 > “Alright, where’s the goddamn grease fire?”                             

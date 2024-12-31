@@ -4,8 +4,9 @@ title: Enforcement Guidelines
 
 # Guidelines for Enforcement
 
-"The two pillars of enforcement at TT are clarity and professionalism." 
-Chrisweb, 2020 
+> "The two pillars of enforcement at TT are clarity and professionalism."
+>
+> -- Chrisweb, 2020 
 
 ## General Enforcement
 
@@ -24,7 +25,6 @@ Create and read BattleMetrics (BM) player notes. Was a player warned for the sam
 Test your thinking, ask another admin. See what other people think in game or in #admin-barracks.
 
 Thank a player for their cooperation. A short message that lets a player know we appreciate their cooperation helps to build trust in the admin team. 
-
 
 ## Kick and Bans
 
@@ -60,7 +60,7 @@ Ensure every SL has a proper SL kit at round start. We do not want to punish an 
 
 Players should be warned 1-2 times to acquire an SL kit. Dialogue through local chat or command net is a good way to know you’ve been heard. 
 
-Global broadcasts with a time limit work well for mid-round problems. “Squad 9 RUS needs an SL with an Infantry SL kit by 1:38 or their squad will be disbanded.”
+Global broadcasts with a time limit work well for mid-round problems. E.g., `Squad 9 RUS needs an SL with an Infantry SL kit by 1:38 or their squad will be disbanded.`
 
 SLs are allowed to temporarily drop their kits to complete specific tasks. They may repair a vehicle, dig a HAB up, or even grab a LAT kit to shoot an APC. 
 
@@ -95,7 +95,7 @@ Admins are not the game play police or meta enforcers. Personal disagreements on
 
 Bad faith or malicious players rarely hide. Players allergic to teamwork will say things like,  “No, I don’t care the flags go West, fuck you. I’m doing what I want. I don’t give a shit.” 
 
-Document more ambiguous teamwork violations in #problem-players, add a BM note, and share video clips so admins can make an informed judgment of the player. 
+Document more ambiguous teamwork violations in `#problem-players`, add a BM note, and share video clips so admins can make an informed judgment of the player. 
 
 ## Team Balance
 
@@ -143,13 +143,9 @@ Base camping rules allow a losing team a chance at a comeback in the mid game. T
 
 Don’t immediately jump to intent. Violations of the rules of thumb cover the majority of base camping situations. The rules of thumb:
 
-First Flag and Main: If a squad, player, or asset is loitering behind the enemy’s team first flag, and
-
-450m (FOB radius) distance: Engaging enemy assets within the 450m radius circle.
-
-Timing is important. Loitering is a sin. A poorly placed mortar FOB does not give carte blanche to sit outside a team’s main for the rest of the game. A Chora game that ends with a team running from main to their first flag is probably long over.
-
-No free lunch. No one-way safety zones. Assets should not position themselves outside MBP, then cry foul when they are engaged. 
+* First Flag and Main: If a squad, player, or asset is loitering behind the enemy’s team first flag, and 450m (FOB radius) distance: Engaging enemy assets within the 450m radius circle.
+* Timing is important. Loitering is a sin. A poorly placed mortar FOB does not give carte blanche to sit outside a team’s main for the rest of the game. A Chora game that ends with a team running from main to their first flag is probably long over.
+* No free lunch. No one-way safety zones. Assets should not position themselves outside MBP, then cry foul when they are engaged. 
 
 Most base camping scenarios are solved by a simple warning to move. Repeat offenders should be noted and discussed in #problem-players.
 

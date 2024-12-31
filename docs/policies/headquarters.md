@@ -1,6 +1,7 @@
 ---
 title: Headquarters
 ---
+
 # Headquarters
 
 Headquarters members (HQ) are responsible for day to day operations. 

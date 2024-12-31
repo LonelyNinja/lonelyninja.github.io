@@ -2,7 +2,7 @@
 title: Relations & Jail/Courthouse Guide
 ---
 
-#  Tactical Triggernometry’s Introductory Guidelines for Relations
+# Guidelines for Relations
 
 The TT Relations position is the most important community engagement role in our organization. Members who engage in relations are responsible for everything from errant questions in #contact-headquarters to ban removal requests in #jail-and-courthouse. We hope Relations members become masters in the art of conflict resolution. They should proactively find solutions for problems that arise from problem players, mistakes made by the administration, and internal disputes among admin actions. 
 
@@ -16,16 +16,15 @@ TT Relations personnel are expected to meet all three of these descriptors in an
 
 Relations personnel should maintain a face of professionalism. Conflict resolution on the server, or failure thereof, can be easily forgotten as the game progresses past it. The map changes, the players leave, and whatever occurred is easily forgotten. By comparison, and by design, what we write on Discord is meant to be there forever for all users to see.This transparency is a boon to our admin team’s credibility as long as professionalism is maintained. By keeping complaints, suggestions, and appeals public we demonstrate our organization has nothing to hide. We operate in the most public way possible.
 
-User420yolo: wat the fuck y do u nerds care wtf I say? I didn't hurt anyone no one complained lmao
+> User420yolo: wat the fuck y do u nerds care wtf I say? I didn't hurt anyone no one complained lmao
+> 
+> ❌ BadRelations: You’re a fucking retard. Read the rules.
+> 
+> ✅ GoodRelations: You can see in our #server-rules that racist statements are not allowed on the server. If you aren’t prepared to abide by them the ban will remain as is.
 
-❌ BadRelations: You’re a fucking retard. Read the rules.
-
-✅ GoodRelations: You can see in our #server-rules that racist statements are not allowed on the server. If you aren’t prepared to abide by them the ban will remain as is.
-
-We lose the benefits of transparency only if our Relations representatives are unnecessarily rude or disrespectful. We would much rather hide our interactions with complainants if this was the norm. While not every complainant deserves kindness they all deserve the simple respect and courtesy of being treated as we would treat anyone else. Professional language offers a safe baseline to engage with all people so as not be accused of bias or executing internet vendettas.
+We lose the benefits of transparency only if our Relations representatives are unnecessarily rude or disrespectful. We would much rather hide our interactions with complainants if this was the norm. While not every complainant deserves kindness they all deserve the simple respect and courtesy of being treated as we would treat anyone else. Professional language offers a safe baseline to engage with all people so as not be accused of bias or executing Internet vendettas.
 
 ## Fairness
-
 
 Fairness and the appearance of fairness might be the most important guiding principle for Relations members. We once again can look at our policy of transparency. It only nets the community a higher opinion of the admin team if the community can reasonably discern that our decisions are fair, reasoned, and based on existing policy or precedent. 
 
@@ -37,12 +36,10 @@ Each individual case will require an independent judgment based on the player’
 
 Like everything else we do, from map voting to ban appeals, communication is absolutely key. Stated in the preamble is an aptitude for conflict resolution. The key stone of conflict resolution in our context requires gathering information from players, admins, and decision makers so a reasonable resolution is achieved. Relations members should be familiar with the admin team so that there is no awkwardness in asking frank questions regarding admin decisions or player misbehavior directly.
 
-
 ## Small tips and reminders:
 
 * Avoid setting precedent or unilaterally changing policy
 * TT Relations members are so often the face of the community that their behavior has to be the gold standard when acting within the role.
-
 
 # Courthouse Guidelines and Etiquette
 

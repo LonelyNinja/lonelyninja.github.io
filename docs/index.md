@@ -4,23 +4,28 @@ Title: Home
 
 # Tactical Triggernometry
 
-```
-Insert some instro stuff here
-```
+Welcome to Tactical Triggernometry's Admin Documentation!  Navigation is split into four general sections:
 
-## Rules
+|Section|Description|
+|-------|---------- |
+|`Server`| Contains Server rules and a "faster-to-consume rules refresher| 
+|`Admin Policies`| What you should and shouldn't do as an admin on the TT server and Discord|
+|`Guides`| Conventional wisdom we use at TT to keep the server thriving|
+|`Reference`| In case you just need to look something up|
 
-1. [Server Rules](./server/server_rules.md)
-1. [Rule Refresher](./server/summary.md)
+Also, please note that this documentation is searchable using the magnifying class at the top of the page.
 
 # Squad Approved Layers
 
 * [v8.2](https://docs.google.com/spreadsheets/d/1A3D4zeOS8YxoEYrWcXa8edBCG_EUueZK9cX2oFMLY9U/edit?gid=1796438364#gid=1796438364)
 
-#  Admin Site Links
+# External Site Links
 
 * [Admin Roster](http://tiny.cc/TTAdminRoster)
 * [Battlemetrics](https://battlemetrics.com/)
 * [PSG Hosting Panel](https://control.psg-hosting.com/)
 * [OWI licensing administration policies](https://joinsquad.com/server-licensing-and-administration-policies/?swcfpc=1)
 * [OWI code of conduct](https://joinsquad.com/code-of-conduct/)
+* [My Squad Stats](https://mysquadstats.com/)
+* [Squad Maps](https://squadmaps.com/)
+* [TT Roles](http://tacticaltriggernometry.com/)
