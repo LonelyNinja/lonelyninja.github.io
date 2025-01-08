@@ -20,6 +20,8 @@ At TacTrig, we do not merely have a set of rules (though, of course we have thos
 
 If the administration team feels that a player, or a group of players is in consistent violation of this primer, we reserve the right to remove them from our community.
 
+![](./images/rules1.png)
+
 # Section 2: TacTrig Policies
 
 Before we lay out the rules, it must be said that Discord is a requirement for appealing any admin behaviour be they kicks, bans or other actions. We require you to be mature and display a basic level of decorum and in return, we promise to treat you with respect.

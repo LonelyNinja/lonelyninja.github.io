@@ -39,7 +39,7 @@ Potato mode settings:
 * Everything remotely fancy turned off (Wake simulation, Lens Flares, etc)
 
 It looks something like this:
-![Squad Game Config](./squad_config.png)
+![Squad Game Config](./images/squad_config.png)
 
 While Squad is running in this mode, AFK seeding consumes minimal resources!
 
@@ -47,17 +47,18 @@ While Squad is running in this mode, AFK seeding consumes minimal resources!
 
 Once you have made these changes, you can save them so that you don’t have to do this every time. Open %LOCALAPPDATA%\SquadGame\Saved\Config and copy your WindowsNoEditor directory to WindowsNoEditor.potato.  For your active game settings, you can do the same and name it WindowsNoEditor.active.  When you want to  AFK seed, rename the WindowsNoEditor.potato (the potato config) directory to WindowsNoEditor. When you want to play, rename the WindowsNoEditor.active (the good config) directory to WindowsNoEditor.  Easy-peasy!
 
-![Squad Config Folder](./squad_config_folder.png)
+![Squad Config Folder](./images/squad_config_folder.png)
 
 ##  Auto-shutdown
 
 You should set your PC to auto shutdown at some time around 3PM EST, give or take 30 minutes. The way to do this easily is to open up command prompt and type the following command:
 
+![](./images/afk_seeding1.png)
+
 ```
-shutdown /s /t [Insert number in seconds]
+C:\Users\USER> shutdown /s /t [Insert number in seconds]
 ```
 For example, if I wanted my PC to shutdown in 4 hours, I would type: `shutdown /s /t 14400` where 14,400 seconds is the amount of seconds in 4 hours:
-
 
 The more that people can do this, the better off the server will be!
 
@@ -65,3 +66,4 @@ The more that people can do this, the better off the server will be!
 
 If you don’t want to shutdown your computer, you can create a batch file to kill Squad after some period of time.  Change 7200 to however many seconds you want to wait before killing it.  Double-click file, win!
 
+![](./images/afk_seeding2.png)

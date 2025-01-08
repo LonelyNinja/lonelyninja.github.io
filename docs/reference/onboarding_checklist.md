@@ -8,11 +8,15 @@ Once you are given an admin role in discord the first step is to get your steami
 
 Steps: 
 
-* Send the @TTRolesbot the message `!admin STEAMIDHERE` after giving the user the Admin Lite discord role. This command allows you to check current steam ids attached to your user by sending “!whitelist” alone or add new steam ids by sending !whitelist and including a list of steam ids after it.
-* Find your steam id here https://steamid.io/, we need your steam64, nothing else will work.
-* To set up your solo steamid as an admin use the following, `!whitelist <your steamid here>`.  It should send back a confirmation that looks like this. 
-* If you have a patreon subscription and are entitled secondary reserved spts for steam ids, list them after your steam id in the same message. It should look like this `!whitelist <your steamid>, <friend’s steamid>`.  The bot again will send back a confirmation, it is VERY important that the admin sends their steamid first, as that is the one that will receive the powers.
-
+1. Send the @TTRolesbot the message `!admin STEAMIDHERE` after giving the user the Admin Lite discord role. This command allows you to check current steam ids attached to your user by sending “!whitelist” alone or add new steam ids by sending !whitelist and including a list of steam ids after it.
+![](./images/ttrolesbot1.png)
+1. Find your steam id here https://steamid.io/, we need your steam64, nothing else will work.
+1. To set up your solo steamid as an admin use the following, `!whitelist <your steamid here>`.  
+1. It should send back a confirmation that looks like this. 
+![](./images/ttrolesbot2.png)
+1. If you have a patreon subscription and are entitled secondary reserved spts for steam ids, list them after your steam id in the same message. It should look like this `!whitelist <your steamid>, <friend’s steamid>`.  
+1. The bot again will send back a confirmation, it is VERY important that the admin sends their steamid first, as that is the one that will receive the powers.
+![](./images/ttrolesbot3.png)
 
 # Admin-Lite Onboarding Checklist
 

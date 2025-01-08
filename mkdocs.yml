@@ -33,6 +33,7 @@ nav:
     - 'Seeding': guides/seeding.md
     - 'Creating Rotations': guides/creating_rotations.md
     - 'Factions': guides/factions.md
+    - 'Vehicles': guides/vehicles.md
   - Reference:
     - 'SquadJS Commands': reference/command_reference.md
     - 'Discord': reference/discord.md

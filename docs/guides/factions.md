@@ -59,7 +59,7 @@ The text key is:
 * L = Logistics
 * I = Infantry
 
-![MyEggo's Viz](./subfactions.png)
+![MyEggo's Viz](./images/subfactions.png)
 
 Some general things to note about this:
 

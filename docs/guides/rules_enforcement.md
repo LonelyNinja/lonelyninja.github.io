@@ -162,3 +162,8 @@ The Base Camping Committee (BCC) will read, oversee, and participate in `#base-c
 The BCC, made up of 3 members of HQ, and overseen by Kirb will assess the situation. Internally, the BCC will vote on it and render a decision. This decision will be a majority decision by the committee with Kirb able to overrule it. The ruling will come with an explanation of the situation and how it may apply in the future. This decision will become the standard and overrule individual opinions of admins. If HQ disagrees with this interpretation of the rules and situation, they can overrule the decision through a majority vote.
 
 Grandfathered “No Go” Zones (Fools Road, Narva, Basra)
+
+![](./images/base_camping1.png)
+![](./images/base_camping2.png)
+![](./images/base_camping3.png)
+![](./images/base_camping4.png)
