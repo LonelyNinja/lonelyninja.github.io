@@ -51,6 +51,7 @@ BM player profile
 > Each player has a BM profile page that is accessed through the drop down menu or clicking on their names. It has a link to their steam profile, total playtime on the server, all chat logs from that player, all admin actions against that player and much more info on that player. It also includes notes that can be attached to the profile and shared across all TT admin.
 
 ![](./images/battlemetrics12.png)
+
 ![](./images/battlemetrics13.png)
 
 Add Ban

@@ -61,22 +61,18 @@ No one likes repetition: start with the command `!maps` to review what layers ha
 
 `!rockthevote` will open the polls.  The server will run a vote using the pool’s layers and then automatically set the winner.
 
-Discord “server chat” channel commands(won’t work ingame)
+Discord “server chat” channel commands (won’t work in-game):
 
-!seeding
+> !seeding
+> Same thing as in-game command, except it can be issued from discord
 
-Same thing as in-game command, except it can be issued from discord
+> !live
+> Same thing as in-game command, except it can be issued from discord
 
-!live
+> !broadcast
+> Same thing as in-game command, except it can be issued from discord
 
-Same thing as in-game command, except it can be issued from discord
-
-!broadcast
-
-Same thing as in-game command, except it can be issued from discord
-
-!players
-
-List of every playername, of everyone on the server
+> !players
+> List of every playername, of everyone on the server
 
 

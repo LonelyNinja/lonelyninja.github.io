@@ -19,6 +19,7 @@ These abilities should be reserved in use until you have a better understanding 
 `Jail and Courthouse` is a channel for the public to post ban appeals or further dig into admin actions against them. This can be a dangerous channel as it's the number one hot bed for drama. `@relations` are the experts and managers of this channel, and should be sought if any other than the most basic issues arise. Keep additional comments and conversations out of the J&C.  Only a single admin or relations team member should engage.  Use our private `problem players` channel to communicate your thoughts. J&C etiquette can be found [here](http://tiny.cc/TTJ-CEtiquette).
 
 The remaining channels to worry about are all internal to HQ and are relatively self explanatory in use. They are structured to organise and spread out conversations to keep things focused. 
+
 ![](./images/discord.png)
 
 The `server chat` channel has the same chat as seen in BM, except it includes TKs and admin broadcasts.
