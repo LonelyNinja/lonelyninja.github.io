@@ -2,16 +2,50 @@ site_name: Tactical Triggernometry
 site_url: https://lonelyninja.github.io
 site_description: Reference for Tactical Triggernometry Squad Server Administration
 theme: 
-  name: mkdocs
+  name: material
   highlight_js: true
   color_mode: auto
   user_color_mode_toggle: true
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: grey
+      accent: red
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: grey
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  logo: assets/logo-navbar.png
+  favicon: assets/logo-navbar.png
+
 markdown_extensions:
   - sane_lists
   - extra
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - toc:
       permalink: true
 nav:
@@ -41,3 +75,7 @@ nav:
     - 'Server Management': reference/servermgmt.md
     - 'Onboarding Admin-Lite': reference/onboarding_checklist.md
     - 'Whitelist': reference/whitelist.md
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/TACTRIG
