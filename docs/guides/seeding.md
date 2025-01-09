@@ -6,19 +6,22 @@ title: AFK Seeding
 
 The purpose of this document is to help get people on to get the TT server active early.
 
+The seeding process we follow is roughly the following:
+
+* Restart server, and switch to Jensen’s Range (around 6-7AM EST). This is usually done by Randy.
+* AFK until the server reaches a critical mass of around 20 on the range.
+* Check the server browser to see if there are any other NA servers “ahead of us in the queue.” For example, suppose we are at 20, but another server is at around 60 or so, consider waiting for 10 or so minutes so that we have a clear berth.
+* Once ready to roll, put out the seeding ping in the `#server-seeding` channel.
+
+The seed layers to use are **Sumari_seed** (any version) and **Fallujah_seed_v1**. These layers work with almost zero admin involvement.  Other seed layers can of course be used, but these are generally the most efficient. If you are going to use another seed layer, ensure that you yourself are playing and not simply AFK!
 
 # AFK Seeding
 
 The key to a viable server is timely seeding. To ensure this, we ask for your help! The easiest way to help the server is the following:
 
-Set game to “potato mode” (explained below)
-
-
-Set an auto shutdown timer (explained below)
-
-
-Join the server between the hours of 7AM-12PM Eastern (depending on your work/study routine) and AFK.
-
+* Set game to “potato mode” (explained below)
+* Set an auto shutdown timer (explained below)
+* Join the server between the hours of 7AM-12PM Eastern (depending on your work/study routine) and AFK.
 
 That’s it! Your PC will auto shutdown at the requisite time, and you can come home to a full server at minimal effort!
 

@@ -33,3 +33,9 @@ The server has set population, time and map parameters that automatically put it
 The seeder role was (and still is) assigned manually by HQ.  We now have a bot that will assign the role to anyone that responds to the seeding emoji on the first post.  They can unreact to remove the role if they wish. We need to advertise this function as much as possible and have people sign up for the role that are able to help
 
 ![](./images/seeding1.png)
+
+# Discord Command Reference
+
+* `/whitelist add <id64>`
+* `/whitelist show <id64>`
+* `/whitelist remove <id64>`

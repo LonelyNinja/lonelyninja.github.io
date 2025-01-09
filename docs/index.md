@@ -22,6 +22,7 @@ Also, please note that this documentation is searchable using the magnifying cla
 
 # External Site Links
 
+* [Tactical Triggernometry Website](http://tacticaltriggernometry.com/)
 * [Admin Roster](http://tiny.cc/TTAdminRoster)
 * [Battlemetrics](https://battlemetrics.com/)
 * [PSG Hosting Panel](https://control.psg-hosting.com/)
@@ -30,4 +31,5 @@ Also, please note that this documentation is searchable using the magnifying cla
 * [My Squad Stats](https://mysquadstats.com/)
 * [Squad Maps](https://squadmaps.com/)
 * [Squad Armor](https://squad-armor.com/)
-* [TT Roles](http://tacticaltriggernometry.com/)
+* [TT Roles](http://tt-roles.tacticaltriggernometry.com/profile)
+

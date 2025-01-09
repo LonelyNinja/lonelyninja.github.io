@@ -2,6 +2,10 @@
 title: Admin-Lite Onboarding
 ---
 
+!!! note
+
+    From LonelyNinja: We need to change this to update the whitelist procedure to `/whitelist add|remove|show` on Discord
+
 # TTRolesBot
 
 Once you are given an admin role in discord the first step is to get your steamid linked with the server so that it recognizes you as an admin. This will give you abilities to use in-game console commands and give you a reserved spot. This is the same system used to link patrons to their reserved spots. The bot is fully automated and self updates the server, any steamid changes should be active on the server next map change, there is a possibility it will take a couple of hours, any longer that and reach out for tech support/confirm steps.
