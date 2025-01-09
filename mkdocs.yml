@@ -37,7 +37,6 @@ nav:
     - 'SquadJS Commands': reference/command_reference.md
     - 'Discord': reference/discord.md
     - 'BattleMetrics': reference/battlemetrics.md
-    - 'Patreon': reference/patreon.md
     - 'Server Management': reference/servermgmt.md
     - 'Onboarding Admin-Lite': reference/onboarding_checklist.md
     - 'Whitelist': reference/whitelist.md
