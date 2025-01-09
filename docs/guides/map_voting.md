@@ -17,6 +17,8 @@ title: Map Voting
 
 If it's a non-standard faction layout - give them an OK map. If it's an Anvil, give them OK factions, and so forth.  Very rarely should you go apeshit on 2 out of 3, and basically never 3 out of 3.
 
+Other good common sense is not to do Narv - Mut - Fallu back-to-back.  Mix it up some, even late at night.
+
 # Guidelines for Map Votes
 
 Admins are encouraged to set maps and start map votes. Map decisions are agreed upon through admin chat. See the Admin Reference Sheet for instructions on how to initiate a map vote.  These guidelines are non-exhaustive:

@@ -17,3 +17,5 @@ After 12AM EST, stick to ***safe*** maps to help maintain server population. We 
 * Fallujah (AAS v1, v2; RAAS v1, v2, v3)
 * Black Coast (AAS v1; RAAS v1, v3, v4)
 * Harju (AAS v1, AAS v2 inf; RAAS v1, v2, v6)
+
+Other good common sense is not to do Narva/Mutaha/Falluja back-to-back.  Mix it up some, even late at night.
