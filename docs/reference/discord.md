@@ -7,6 +7,7 @@ title: Discord
 Discord is massively important to us as a community for interaction, out-of-game talking, and dealing with any issues. As an admin, you will gain access to private channels that we use to discuss player issues, server issues, and anything else that could hinder or bolster our community. Because of this it is **SUPER** important for admins of all types to remain active in the administration section of discord. You can mute or ignore the general public channels as you wish, but you should do your best to pay attention and keep up to date on the things happening in the administration channels. There are also the shared space channels of Contact HQ and Jail and Courthouse.
 
 Discord abilities: As a member of the admin team you will have higher discord permissions and the abilities to:
+
 * give/take roles of those below you
 * delete messages 
 * move people in voice channels 

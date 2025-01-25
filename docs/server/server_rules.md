@@ -80,7 +80,7 @@ When streaming it is required to have at least a 2-minute delay and to have an a
 
 At Tactical Triggernometry, we take a more serious approach to gameplay. If you play on our server, you are also expected to take a serious approach to the game. To encourage teamwork and good gameplay, we enforce the following rules:
 
-## Section 3.1 General {#general}
+## Section 3.1 General { #general }
 
 All squad leaders **MUST HAVE WORKING MICROPHONES**, actively lead their squad, and cooperate with other squad leaders.
 
@@ -89,6 +89,7 @@ All infantry squads must be led by an infantry squad leader, no exceptions. See 
 Players who create a squad MUST have every intention to lead the squad. Players who do not abide by this are prohibited. SL "hot potato" is not tolerated.
 
 One-man locked squads are not permitted. There are exceptions for:
+
 * Helicopters/Logistics
 * Commanders
 * Server Administration
@@ -101,6 +102,8 @@ Vehicle assets are first come, first serve for who gets in them first.
 One-manning: Any vehicle worth 5 tickets or fewer can be one-manned. All vehicles worth 10 or more tickets that require crewman kits cannot be one-manned. Do not ever leave main without two crewmen in the vehicle if two crewmen are required (no picking up in the field).
 
 If you find your vehicle one-manned in the field due to a crewmember disconnecting or getting killed, you must attempt to return to main or fall back to a safe HAB to pick up another crew member at the earliest available opportunity.
+
+![](./images/crewkit.jpg)
 
 Camping enemy main bases is not tolerated. See [section 3.5](#base-camping) on base camping.
 

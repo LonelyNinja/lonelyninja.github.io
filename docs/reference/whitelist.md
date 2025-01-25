@@ -12,6 +12,7 @@ Players can request whitelist in the `#request-whitelist` channel on Discord.
     Who decides who gets whitelist?  What are the criteria we tend to appreciate other than SLing and seeding?
 
 Once somebody is allowed access to the whitelist, an admin can add them in one of two ways:
+
 * Via the * [TT Roles](http://tt-roles.tacticaltriggernometry.com/profile) page
 * Via the `@TTRolesBot`bot on Discord.
 
@@ -26,7 +27,8 @@ Once somebody is allowed access to the whitelist, an admin can add them in one o
 ## Adding via Discord
 
 Adding via Discord is also relatively easy. 
-* Look up the user's Steam64ID at https://steamid.io/ (make sure it's the 64 version!)
+
+* Look up the user's Steam64ID at [https://steamid.io/](SteamID.io) (make sure it's the 64 version!)
 * In Discord, issue the command `/whitelist add <steamid64>`
 
 ![](./images/tt-roles-2.png)

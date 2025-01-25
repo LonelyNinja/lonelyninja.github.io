@@ -12,11 +12,11 @@ This is meant as a **refresher only**.  Before you play for the first time, plea
     All disagreements will be handled in TT Discord `#contact-admins` or `#ban-appeals` 
 
 * Global 
-    * In game, use `!admin <msg>` to get in touch with an admin
     * Be respectful; the TT community does not tolerate any racist, sexist, or otherwise bigoted remarks 
     * Teamwork is **required**
+    * In game, use `!admin <msg>` to get in touch with an admin
     * Intentional teamkilling is prohibited
-    * Main camping - See the [full rules](./server_rules.md) for a discussion of main camping
+    * Main camping is prohibited - See the [full rules](./server_rules.md) for a discussion of main camping
     * Intentional or severely negligent asset wasting is prohibited - See [Server Rules Section 3.3](./server_rules.md#asset-waste) for what comprises asset waste
 * Squad Leaders
     * Squad Leaders must have microphones 
