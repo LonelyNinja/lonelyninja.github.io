@@ -66,6 +66,7 @@ nav:
     - 'Map Voting': guides/map_voting.md
     - 'Seeding': guides/seeding.md
     - 'Creating Rotations': guides/rotations.md
+    - 'Admin Cam': guides/admin_cam.md
     - 'Factions': guides/factions.md
     - 'Vehicles': guides/vehicles.md
   - Reference:
