@@ -70,12 +70,12 @@ nav:
     - 'Factions': guides/factions.md
     - 'Vehicles': guides/vehicles.md
   - Reference:
-    - 'SquadJS Commands': reference/command_reference.md
     - 'Discord': reference/discord.md
     - 'BattleMetrics': reference/battlemetrics.md
     - 'Server Management': reference/servermgmt.md
     - 'Onboarding Admin-Lite': reference/onboarding_checklist.md
     - 'Whitelist': reference/whitelist.md
+  - 'SquadJS Commands': reference/command_reference.md
 extra:
   social:
     - icon: fontawesome/brands/discord
