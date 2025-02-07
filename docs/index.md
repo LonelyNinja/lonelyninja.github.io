@@ -23,7 +23,7 @@ Also, please note that this documentation is searchable using the magnifying cla
 * [My Squad Stats](https://mysquadstats.com/)
 * [Squad Maps](https://squadmaps.com/)
 * [Squad Armor](https://squad-armor.com/)
-* [SteamID.IO](https://steamid.io)
+* [SteamID.io](https://steamid.io)
 
 ## Admin Sites
 

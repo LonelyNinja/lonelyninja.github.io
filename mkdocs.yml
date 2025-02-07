@@ -58,10 +58,11 @@ nav:
     - 'Admin Lite': policies/admin_lite.md
     - 'Headquarters': policies/headquarters.md
     - 'Command' : policies/command.md
+    - 'Relations': policies/relations.md
   - Guides:
     - 'Rules Enforcement': guides/rules_enforcement.md
     - 'Punishment Matrix': guides/punishment_matrix.md
-    - 'Jail/Courthouse': guides/jail_courthouse.md
+    - 'Jail/Courthouse': guides/courthouse.md
     - 'Squad Layer Manager': guides/squad_layer_manager.md
     - 'Map Voting': guides/map_voting.md
     - 'Seeding': guides/seeding.md
