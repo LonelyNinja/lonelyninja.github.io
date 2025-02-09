@@ -60,7 +60,7 @@ nav:
     - 'Command' : policies/command.md
     - 'Relations': policies/relations.md
   - Guides:
-    - 'Rules Enforcement': guides/rules_enforcement.md
+    - 'Enforcing Rules': guides/rules_enforcement.md
     - 'Punishment Matrix': guides/punishment_matrix.md
     - 'Jail/Courthouse': guides/courthouse.md
     - 'Squad Layer Manager': guides/squad_layer_manager.md

@@ -28,6 +28,7 @@ Also, please note that this documentation is searchable using the magnifying cla
 ## Admin Sites
 
 * [Admin Roster](http://tiny.cc/TTAdminRoster)
+* [Squad Layer Manager](https://slm.tacticaltriggernometry.com/)
 * [Battlemetrics](https://battlemetrics.com/)
 * [PSG Hosting Panel](https://control.psg-hosting.com/)
 * [TT Roles](http://tt-roles.tacticaltriggernometry.com/profile)

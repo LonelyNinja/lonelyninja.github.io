@@ -20,9 +20,9 @@ Do not drive yourself insane with minor rule enforcement during gremlin hours. D
 
 Open a dialogue. Pre-made warning “shortcuts” are effective tools, but lack a human touch. If you cannot open a dialogue through text or voice, is there another admin in their squad or command net that can? 
 
-Create and read BattleMetrics (BM) player notes. Was a player warned for the same thing a week ago, or is the player a first timer with 8 hours in the game? Keep yourself and other admins informed through BM notes, BM player flags, and the #problem-players channel.
+Create and read BattleMetrics (BM) player notes. Was a player warned for the same thing a week ago, or is the player a first timer with 8 hours in the game? Keep yourself and other admins informed through BM notes, BM player flags, and the `#problem-players` channel.
 
-Test your thinking, ask another admin. See what other people think in game or in #admin-barracks.
+Test your thinking, ask another admin. See what other people think in game or in `#admin-barracks`.
 
 Thank a player for their cooperation. A short message that lets a player know we appreciate their cooperation helps to build trust in the admin team. 
 

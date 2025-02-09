@@ -2,20 +2,19 @@
 title: Admin Lite
 ---
 
-# TL;DR
+# Summary
 
 The gist is:
 
 * Represent TT in a positive light when you're playing
-* Watch for egregious issues (racism, teamm killing, cheats, solo vehicles, kit issues, toxicity, etc.)
+* Watch for egregious issues (racism, team killing, cheats, solo vehicles, kits, toxicity, etc.)
 * Help with map voting
+* If a ban needs an upgrade, report in Discords `#problem-players`.  See [Policy](./admin_lite.md#Policy) for details
 * When in doubt, go to a HQ member for help
 
 # Admin Lite Responsibilities
 
-We ask Lites to take action when they observe a rules violation and  investigate player reports. 
-
-Lite actions should focus on obvious offenses such as team killing, racist language, blatant exploits, solo vehicles, kit rules, and clear cut griefing.
+We ask Lites to take action when they observe a rules violation and investigate player reports. Lite actions should focus on obvious offenses such as team killing, racist language, blatant exploits, solo vehicles, kit rules, and clear cut griefing.
 
 Lites have the ability to escalate problems to HQ members. Lites should provide as much relevant information as they can, but should defer to HQ decisions in-game when asked. Lites may follow up on any potential mistakes or challenges in Discord.
 Maximum ban length: 2 days.
@@ -36,9 +35,10 @@ Intent:
 Implementation:
 > In addition to recruiting full HQ members from those timezones, we are recruiting junior members of the TT community or those that don’t want the hassle of being a full HQ member, but want to deal with major server issues when no HQ members are active
 
-# Policy
+# Policy { #Policy }
 
-Keep admin actions to a minimum when HQ members are online unless asked to or a situation isn’t being resolved.
+!!! note
+    Keep admin actions to a minimum when HQ members are online unless asked to or a situation isn’t being resolved.
 
 You and your actions will be held to a high standard as you represent us all, please keep everything mature and professional. You will not have the same responsibility level or activity requirements as HQ. Help out when you are on and see something, but don’t stress about it. Avoid drama and ask for assistance as needed. You do not have access to long bans; if there are repeat offenders that keep rejoining the server or players causing severe issues that you feel deserve a ban, **tag @HQ** in Discord and we will help ASAP. Make sure to write in `#problem-players` any bans that you believe should be implemented or major problem players you ran into. 
 
