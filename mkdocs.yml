@@ -65,6 +65,7 @@ nav:
     - 'Jail/Courthouse': guides/courthouse.md
     - 'Squad Layer Manager': guides/squad_layer_manager.md
     - 'Map Voting': guides/map_voting.md
+    - 'Known Base Camping': guides/known_basecamping.md
     - 'Seeding': guides/seeding.md
     - 'Creating Rotations': guides/rotations.md
     - 'Admin Cam': guides/admin_cam.md
