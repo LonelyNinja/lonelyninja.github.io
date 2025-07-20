@@ -25,6 +25,7 @@ This checklist has been designed to be completed in order.
 - <input type="checkbox" /> Learn to use your new tools
     - [Admin Reference Sheet](./command_reference.md)
     - [Rules Enforcement](../guides/rules_enforcement.md)
+    - [SLM](../guides/squad_layer_manager.md)
     - Admin Cam: `Left Shift + P`
 - <input type="checkbox" /> Helpful Resources:
     - https://squadmaps.com/
@@ -35,7 +36,6 @@ This checklist has been designed to be completed in order.
     - <input type="checkbox" /> Examine what a ban process looks like
 
 Go have fun! Congrats!
-
 
 # TTRolesBot
 

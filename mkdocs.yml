@@ -71,6 +71,7 @@ nav:
     - 'Admin Cam': guides/admin_cam.md
     - 'Factions': guides/factions.md
     - 'Vehicles': guides/vehicles.md
+    - 'Genpool': guids/genpool.md
   - Reference:
     - 'Discord': reference/discord.md
     - 'BattleMetrics': reference/battlemetrics.md

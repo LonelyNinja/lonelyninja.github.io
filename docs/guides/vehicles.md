@@ -2,6 +2,21 @@
 title: Vehicles
 ---
 
+# Vehicle Rules
+
+One-man locked squads are not permitted. There are exceptions for:
+
+* Helicopters/Logistics
+* Commanders
+* Server Administration
+* Anti-tank and indirect rocket vehicles (MRAP ATGM, Grad rockets; Spandrel jeep, etc.)
+
+“Soft-locking” squads by auto kicking every player who joins will be considered squad locking...
+
+Vehicle assets are first come, first serve for who gets in them first.
+
+One-manning: Any vehicle worth 5 tickets or fewer can be one-manned. All vehicles that both: (1) are worth 10 or more tickets, and (2) require crewman kits, cannot be one-manned. Do not ever leave main without two crewmen in the vehicle if two crewmen are required (no picking up in the field).
+
 # Vehicle Categories
 
 |Category |   Description|

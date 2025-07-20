@@ -14,5 +14,5 @@ The rules on base camping are relatively clear, but some situations may not be. 
 
 ![](./images/base_camping3.png)
 
-
 ![](./images/base_camping4.png)
+
