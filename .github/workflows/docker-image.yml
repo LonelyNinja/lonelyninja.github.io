@@ -2,17 +2,44 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    tags:
+     - '**'
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag tt-caddy:$(date +%s)
+
+    - name: Get Metadata
+      id: tags
+      run: |
+        COMMIT_SHA="${{ github.sha }}"
+        TAGS="ghrc.io/$OWNER/tt-caddy:commit-$COMMIT_SHA"
+        if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+          TAG_NAME="${{ github.ref_name }}"
+          TAGS = "$TAGS,ghcr.io/$OWNER/tt-caddy:$TAG_NAME"
+        fi
+        echo "TAGS=$TAGS" >> $GITHUB_OUTPUT
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Build and tag Docker image
+      uses: docker/build-push-action@v6
+      with:
+        context: .
+        push: true
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
+        build-args: |
+          GIT_SHA=${{ github.sha }}
+          TYPECHECK_AND_FORMAT=true
+        tags: ${{ steps.branch.outputs.TAGS }}
