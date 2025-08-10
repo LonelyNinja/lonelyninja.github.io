@@ -44,28 +44,32 @@ SquadJS will attempt to match incomplete player names. This means you may not ha
 
 |Command|Description|
 |-------|-----------|
-|!kill playername reason|Automatically teamswitches a player twice so that they return on their original team, but dead and not in a squad. Used if players are glitched and can’t use the respawn console command or as a light punishment when dealing with seeding issues. Reason is not required|
-|!kick playername reason|Kicks player from server, reason required. No timeout, players can rejoin instantly|
-|!yeet playername reason|Kicks player from server, reason required. Natural 5 minute re-join cooldown. Reason **REQUIRED**|
-|!timeout playername reason|Kicks and bans a player from the server for 1 hour. When used this command prevents the player from accruing points on SCBL. A “timeout” for more minor infractions. |
-|!unyeet|Wipes the `!timeout/!yeet` command ban list|
-|!randomize|(Use `!randomizenext` below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap|
-|!randomizenext|Updated version of `!randomize`. This command will automatically shuffle the teams after the map switch.|
-|!vote option1 option2 [[option3] ...]|Initiates a 3 minute server wide vote. Used for map votes. Remember to set the next map in BattleMetrics after the vote is completed.  Example(s): <br/> `!vote belaya kamdesh kohat`<br/>  `!vote urban desert forest`|
-|!endvote|Prematurely ends a vote in progress. End a vote early if you are cutting it close with the 3 minute map vote and the game’s end approaches|
-|!runoff|Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using `!vote`) and mappool votes(started by `!rtv`).|
-|!fog [1/0]|This will reveal the flag sequence of a RAAS layer on the map for all players. Essentially turns a RAAS game into an AAS layer, but with different patterns. Announce fog off round before with admin consensus|
+|!afkout|Calling it a night? Consider helping the server go one more. Delay your disconnect until staging ends, or AFK out. The bot will get ya.
+|!autofog {toggle,status,save} |`!autofog toggle` will turn off the fog on RAAS automagically. `!autofog status` will show you the current setting (should be off by default) `!autofog save` will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off|
 |!broadcast, !broad, !b Message|Sends a broadcast with whatever custom message is written|
 |!disband [#]|Disbands the targeted squad of the executor’s team|
+|!endvote|Prematurely ends a vote in progress. End a vote early if you are cutting it close with the 3 minute map vote and the game’s end approaches|
 |!enemydisband [#]|Disbands the targeted squad of the executor’s opposing team|
-|!shownext|Shows the next map, factions and subfactions.  Note: This is no longer an admin exclusive command|
-|!w, !warn playername message|Send a written message to a player. This can be a shortcut listed below, or a custom sentence:<br/>`!w drewpro SLkit`<br/>`!warn drewpro Please grab an SL kit your next spawn`|
+|!fog [1/0]|This will reveal the flag sequence of a RAAS layer on the map for all players. Essentially turns a RAAS game into an AAS layer, but with different patterns. Announce fog off round before with admin consensus|
+|!kill playername reason|Automatically teamswitches a player twice so that they return on their original team, but dead and not in a squad. Used if players are glitched and can’t use the respawn console command or as a light punishment when dealing with seeding issues. Reason is not required|
+|!kick playername reason|Kicks player from server, reason required. No timeout, players can rejoin instantly|
+|!main|[!base copy]: No base camping. Failure to respond to admin warnings to back off an enemy main base can result in removal.|
 |!maps|Shows the last 6 maps, factions and end times. Retrieves match history from the squadjs database. Repeats 3 times|
-|!tickets|Displays detailed information about the past 6 games, including layer, factions and ticket differential. Repeats 3 times||
+|!newpilot|New pilots. Live games on TT are not for your first flight hours. Lack of adequate experience can get you grounded. Join us on the range to practice.|
+|!pad|Do not block the heli pads. Keep the pads clear so assets can spawn and everyone can practice.|
+|!randomize|(Use `!randomizenext` below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap|
+|!randomizenext|Updated version of `!randomize`. This command will automatically shuffle the teams after the map switch.|
+|!runoff|Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using `!vote`) and mappool votes(started by `!rtv`).|
+|!rotation {toggle,status,save}|`!rotation toggle` will turn on the server map rotation for Fogless Friday. `!rotation status` will show the current status. `!rotation save` will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play|
+|!shownext|Shows the next map, factions and subfactions.  Note: This is no longer an admin exclusive command|
 |!switchnext playername|This command will automatically switch a player to the other team at the beginning of the next map| 
 |!switchnow playername|Switches a player instantly from one team to another|
-|!autofog {toggle,status,save} |`!autofog toggle` will turn off the fog on RAAS automagically. `!autofog status` will show you the current setting (should be off by default) `!autofog save` will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off|
-|!rotation {toggle,status,save}|`!rotation toggle` will turn on the server map rotation for Fogless Friday. `!rotation status` will show the current status. `!rotation save` will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play|
+|!tickets|Displays detailed information about the past 6 games, including layer, factions and ticket differential. Repeats 3 times||
+|!timeout playername reason|Kicks and bans a player from the server for 1 hour. When used this command prevents the player from accruing points on SCBL. A “timeout” for more minor infractions. |
+|!unyeet|Wipes the `!timeout/!yeet` command ban list|
+|!vote option1 option2 [[option3] ...]|Initiates a 3 minute server wide vote. Used for map votes. Remember to set the next map in BattleMetrics after the vote is completed.  Example(s): <br/> `!vote belaya kamdesh kohat`<br/>  `!vote urban desert forest`|
+|!w, !warn playername message|Send a written message to a player. This can be a shortcut listed below, or a custom sentence:<br/>`!w drewpro SLkit`<br/>`!warn drewpro Please grab an SL kit your next spawn`|
+|!yeet playername reason|Kicks player from server, reason required. Natural 5 minute re-join cooldown. Reason **REQUIRED**|
 
 # [Reason] Shortcuts
 
