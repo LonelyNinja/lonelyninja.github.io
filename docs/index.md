@@ -33,8 +33,8 @@ Also, please note that this documentation is searchable using the magnifying cla
 * [PSG Hosting Panel](https://control.psg-hosting.com/)
 * [TT Roles](http://tt-roles.tacticaltriggernometry.com/profile)
 * Layers:
-    * [v8.2 OWI Layers](https://docs.google.com/spreadsheets/d/1A3D4zeOS8YxoEYrWcXa8edBCG_EUueZK9cX2oFMLY9U/edit?gid=1796438364#gid=1796438364)
-    * [Layers Logan Likes](https://docs.google.com/spreadsheets/d/1c1iBWiFll0ESeZBG4lT2bTHdf5YJUBtBIlVQTrCY9s8/edit?gid=878317139#gid=878317139)
+    * [v9.0 OWI Layers](https://docs.google.com/spreadsheets/d/1Rv7WpDN7UutQjyK7opSOr6BodGcZDrTnuAwp_4U63J4/edit?gid=1796438364#gid=1796438364)
+    * [Layers Logan Likes - 8.2](https://docs.google.com/spreadsheets/d/1c1iBWiFll0ESeZBG4lT2bTHdf5YJUBtBIlVQTrCY9s8/edit?gid=878317139#gid=878317139)
 
 ## OWI
 
