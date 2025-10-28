@@ -1,0 +1,1531 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Reference for Tactical Triggernometry Squad Server Administration">
+      
+      
+      
+        <link rel="canonical" href="https://lonelyninja.github.io/reference/command_reference/">
+      
+      
+        <link rel="prev" href="../whitelist/">
+      
+      
+      
+      <link rel="icon" href="../../assets/logo-navbar.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Admin Command Reference - Tactical Triggernometry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#intro-squadjs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Tactical Triggernometry" class="md-header__button md-logo" aria-label="Tactical Triggernometry" data-md-component="logo">
+      
+  <img src="../../assets/logo-navbar.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tactical Triggernometry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Admin Command Reference
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Tactical Triggernometry" class="md-nav__button md-logo" aria-label="Tactical Triggernometry" data-md-component="logo">
+      
+  <img src="../../assets/logo-navbar.png" alt="logo">
+
+    </a>
+    Tactical Triggernometry
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Server Rules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Server Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server/server_rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Server Rules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server/summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rule Refresher
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Admin Policies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Admin Policies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../policies/all_admins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    All Admins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../policies/admin_lite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Lite
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../policies/headquarters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Headquarters
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../policies/command/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Command
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../policies/relations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/rules_enforcement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Enforcing Rules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/punishment_matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Punishment Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/courthouse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jail/Courthouse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/squad_layer_manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Squad Layer Manager
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/map_voting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Map Voting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/known_basecamping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Known Base Camping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/seeding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seeding
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/rotations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creating Rotations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/admin_cam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Cam
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/factions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Factions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/vehicles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vehicles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guids/genpool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genpool
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reference
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../battlemetrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BattleMetrics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servermgmt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Server Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding_checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Onboarding Admin-Lite
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../whitelist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Whitelist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    SquadJS Commands
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="intro-squadjs">Intro: SquadJS<a class="headerlink" href="#intro-squadjs" title="Permanent link">&para;</a></h1>
+<p>SquadJS is a program that runs in the background of Squad and is linked to our Discord. It reads through and monitors Squad’s game logs, using these logs to automatically perform actions (seeding messages, server name and auto afk kick), create easy to read chat logs on discord that include TKs and admin broadcast(BM doesn’t track either), send !admin pings to a special discord channel, gives live server status updates, and allows ingame administration using the ChatToAdmin chat with specific commands.</p>
+<h1 id="squadjs-interactions">SquadJS Interactions<a class="headerlink" href="#squadjs-interactions" title="Permanent link">&para;</a></h1>
+<p>The syntax to send commands through admin chat is: <code>![command] [playername] [reason]</code></p>
+<p>The [reason] must be more than one word unless you send a shortcut. </p>
+<p><code>!warn playername unlock</code> will warn a player to unlock their squad with the “unlock” shortcut </p>
+<p><code>!warn playername stop</code> will return an error message, because there is no “stop” shortcut</p>
+<p><code>!warn playername Stop locking your RWS squad, you must unlock</code> will successfully warn a player with the written message</p>
+<p>Remove spaces in a playername to warn players with spaces. For a player named “Bravo Delta”, the interaction would be: <code>[command] BravoDelta [reason]</code>.  To kick “Bravo Delta” using a solo (solo’ing vehicle) shortcut, use <code>!kick BravoDelta solo</code>.</p>
+<p>SquadJS will attempt to match incomplete player names. This means you may not have to type a full player name.  If we want to warn player Randy Newman with an SLkit shortcut, we can use <code>!warn randy SLkit</code>.  If SquadJS returns an error message, because there is another player named Randy Fuming, we can get more specific and use <code>!warn RandyNew SLkit</code></p>
+<h1 id="squadjs-commands-all-players">SquadJS Commands (all players)<a class="headerlink" href="#squadjs-commands-all-players" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>!help</td>
+<td>Self warns the player with the commands they can use, depending on which chat they issue the command in. Different options for admin chat</td>
+</tr>
+<tr>
+<td>!discord</td>
+<td>Self warns the player TT discord information</td>
+</tr>
+<tr>
+<td>!whitelist</td>
+<td>Self warns the player TT whitelist information</td>
+</tr>
+<tr>
+<td>!admin</td>
+<td>Send an admin ping in-game and to our #admin-ping Discord channel</td>
+</tr>
+<tr>
+<td>!reset</td>
+<td>Lets a player teamswitch themselves twice, essentially a glorified suicide. Fixes “running man” bug</td>
+</tr>
+<tr>
+<td>!shownext</td>
+<td>Self warns the player information about the next map, and which faction they will play</td>
+</tr>
+</tbody>
+</table>
+<h1 id="console-admin-commands">Console (~) admin commands<a class="headerlink" href="#console-admin-commands" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AdminRenameSquad <teamid> <squad id/number></td>
+<td>Reset a custom squad name to a default (Squad 5, Squad 9, etc)</td>
+<td>AdminRenameSquad 1 4</td>
+</tr>
+<tr>
+<td>AdminTeleportToPlayer <playername></td>
+<td>While in admin camera (Shift+P) teleport to a player. Server will try to guess incomplete names</td>
+<td>AdminTeleportToPlayer Bob</td>
+</tr>
+</tbody>
+</table>
+<h1 id="admin-commands-sent-through-admin-chat">Admin Commands (sent through admin chat)<a class="headerlink" href="#admin-commands-sent-through-admin-chat" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>!afkout</td>
+<td>Calling it a night? Consider helping the server go one more. Delay your disconnect until staging ends, or AFK out. The bot will get ya.</td>
+</tr>
+<tr>
+<td toggle_status_save="toggle,status,save">!autofog</td>
+<td><code>!autofog toggle</code> will turn off the fog on RAAS automagically. <code>!autofog status</code> will show you the current setting (should be off by default) <code>!autofog save</code> will save the status to JS. This is used to ensure the setting stays through SquadJS crashes, but will require it be turned off</td>
+</tr>
+<tr>
+<td>!broadcast, !broad, !b Message</td>
+<td>Sends a broadcast with whatever custom message is written</td>
+</tr>
+<tr>
+<td>!disband [#]</td>
+<td>Disbands the targeted squad of the executor’s team</td>
+</tr>
+<tr>
+<td>!endvote</td>
+<td>Prematurely ends a vote in progress. End a vote early if you are cutting it close with the 3 minute map vote and the game’s end approaches</td>
+</tr>
+<tr>
+<td>!enemydisband [#]</td>
+<td>Disbands the targeted squad of the executor’s opposing team</td>
+</tr>
+<tr>
+<td>!fog [1/0]</td>
+<td>This will reveal the flag sequence of a RAAS layer on the map for all players. Essentially turns a RAAS game into an AAS layer, but with different patterns. Announce fog off round before with admin consensus</td>
+</tr>
+<tr>
+<td>!kill playername reason</td>
+<td>Automatically teamswitches a player twice so that they return on their original team, but dead and not in a squad. Used if players are glitched and can’t use the respawn console command or as a light punishment when dealing with seeding issues. Reason is not required</td>
+</tr>
+<tr>
+<td>!kick playername reason</td>
+<td>Kicks player from server, reason required. No timeout, players can rejoin instantly</td>
+</tr>
+<tr>
+<td>!main</td>
+<td>[!base copy]: No base camping. Failure to respond to admin warnings to back off an enemy main base can result in removal.</td>
+</tr>
+<tr>
+<td>!maps</td>
+<td>Shows the last 6 maps, factions and end times. Retrieves match history from the squadjs database. Repeats 3 times</td>
+</tr>
+<tr>
+<td>!newpilot</td>
+<td>New pilots. Live games on TT are not for your first flight hours. Lack of adequate experience can get you grounded. Join us on the range to practice.</td>
+</tr>
+<tr>
+<td>!pad</td>
+<td>Do not block the heli pads. Keep the pads clear so assets can spawn and everyone can practice.</td>
+</tr>
+<tr>
+<td>!randomize</td>
+<td>(Use <code>!randomizenext</code> below) Randomizes the teams. Best use for this is after a map change, when people load into the server, but before too many squads are created. If you execute this mid-game, on average half the server will immediately die on the teamswap</td>
+</tr>
+<tr>
+<td>!randomizenext</td>
+<td>Updated version of <code>!randomize</code>. This command will automatically shuffle the teams after the map switch.</td>
+</tr>
+<tr>
+<td>!runoff</td>
+<td>Starts a runoff vote in the event of a tie in the vote. Works for both regular/standard votes(using <code>!vote</code>) and mappool votes(started by <code>!rtv</code>).</td>
+</tr>
+<tr>
+<td toggle_status_save="toggle,status,save">!rotation</td>
+<td><code>!rotation toggle</code> will turn on the server map rotation for Fogless Friday. <code>!rotation status</code> will show the current status. <code>!rotation save</code> will save the current status to JS and works the same as autofog. Saving it will require the setting be turned off to return to normal play</td>
+</tr>
+<tr>
+<td>!shownext</td>
+<td>Shows the next map, factions and subfactions.  Note: This is no longer an admin exclusive command</td>
+</tr>
+<tr>
+<td>!switchnext playername</td>
+<td>This command will automatically switch a player to the other team at the beginning of the next map</td>
+</tr>
+<tr>
+<td>!switchnow playername</td>
+<td>Switches a player instantly from one team to another</td>
+</tr>
+<tr>
+<td>!tickets</td>
+<td>Displays detailed information about the past 6 games, including layer, factions and ticket differential. Repeats 3 times</td>
+</tr>
+<tr>
+<td>!timeout playername reason</td>
+<td>Kicks and bans a player from the server for 1 hour. When used this command prevents the player from accruing points on SCBL. A “timeout” for more minor infractions.</td>
+</tr>
+<tr>
+<td>!unyeet</td>
+<td>Wipes the <code>!timeout/!yeet</code> command ban list</td>
+</tr>
+<tr>
+<td>!vote option1 option2 [[option3] ...]</td>
+<td>Initiates a 3 minute server wide vote. Used for map votes. Remember to set the next map in BattleMetrics after the vote is completed.  Example(s): <br/> <code>!vote belaya kamdesh kohat</code><br/>  <code>!vote urban desert forest</code></td>
+</tr>
+<tr>
+<td>!w, !warn playername message</td>
+<td>Send a written message to a player. This can be a shortcut listed below, or a custom sentence:<br/><code>!w drewpro SLkit</code><br/><code>!warn drewpro Please grab an SL kit your next spawn</code></td>
+</tr>
+<tr>
+<td>!yeet playername reason</td>
+<td>Kicks player from server, reason required. Natural 5 minute re-join cooldown. Reason <strong>REQUIRED</strong></td>
+</tr>
+</tbody>
+</table>
+<h1 id="reason-shortcuts">[Reason] Shortcuts<a class="headerlink" href="#reason-shortcuts" title="Permanent link">&para;</a></h1>
+<p>Instead of typing a reason/message in your !warn, !kick or !kill, you can type any of these shorthands. It will only work as a solo word, not in combo with anything. </p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Message</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tk</td>
+<td>teamkilling. Please review our rules on discord.io/trig</td>
+</tr>
+<tr>
+<td>abandon</td>
+<td>creating and abandoning a squad. Please review our rules on discord.io/trig</td>
+</tr>
+<tr>
+<td>unlock</td>
+<td>one man locked squad. Unlock your one man locked squad or join another squad. We don't allow one man locked squads unless for helo, logi or cmd</td>
+</tr>
+<tr>
+<td>solo</td>
+<td>soloing. Return to main NOW, you are soloing a 2 man crewman vehicle, this is against server rules, ...</td>
+</tr>
+<tr>
+<td>slkit</td>
+<td>not having an SL kit. Please pickup an Inf SL kit ASAP. Infantry squads must be actively led by inf SLs, not SLs in vehicles</td>
+</tr>
+<tr>
+<td>base</td>
+<td>base camping. Back off the enemy main base, you are too close and !w camping their main</td>
+</tr>
+<tr>
+<td>spam</td>
+<td>spamming. Please stop spamming chat or voice immediately. We focus on mature gameplay on this server, join our discord for out of game conversations</td>
+</tr>
+<tr>
+<td>teamwork</td>
+<td>lack of teamwork. Please communicate and coordinate with your teammates and fellow SLs. Teamwork is required on this server and will be enforced if necessary</td>
+</tr>
+<tr>
+<td>appeal</td>
+<td>raising admin issues in-game. Please bring all appeals and issues with admin action to discord and keep it out of in-game chat. We will gladly deal with it there and welcome constructive mature feedback</td>
+</tr>
+<tr>
+<td>comms</td>
+<td>lack of comms. All players must be able and willing to communicate in some way(voice or text). SLs must be responsive and communicate in SL channel</td>
+</tr>
+<tr>
+<td>advertise</td>
+<td>advertising. We do not allow advertising websites, streams or recruiting on our server. Please keep this off our server. Thank you</td>
+</tr>
+<tr>
+<td>mess</td>
+<td>messing around. Stop messing around and help your team. This is a mature teamwork server</td>
+</tr>
+<tr>
+<td>waste</td>
+<td>wasting assets. Please be more careful with your vehicles and make sure you are helping the team and not wasting assets</td>
+</tr>
+<tr>
+<td>pilotsl</td>
+<td>SLing as a pilot. Pilot led squads can not contain more than 3 total squad members</td>
+</tr>
+<tr>
+<td>hab</td>
+<td>attacking the enemy HAB or main when seeding. Keep the fight to the dictated flag and not pushing enemy spawns</td>
+</tr>
+<tr>
+<td>ramming</td>
+<td>intentional helicopter ramming. This is prohibited on the TT server</td>
+</tr>
+<tr>
+<td>troll</td>
+<td>your behavior is detracting from the quality of the game. Tone it down or you will be removed</td>
+</tr>
+<tr>
+<td>trolling</td>
+<td>your behavior is detracting from the quality of the game. Tone it down or you will be removed</td>
+</tr>
+<tr>
+<td>crewsl</td>
+<td>The majority of your squad is infantry. You cannot lead as a crewman in a vic. Pass Gunner/driver to another and get an infantry SL</td>
+</tr>
+<tr>
+<td>baiting</td>
+<td>creating and abandoning a squad. Please review our rules on discord.io/trig</td>
+</tr>
+<tr>
+<td>sexism</td>
+<td>excessive sexism. Sexism is not allowed on the serverthank</td>
+</tr>
+<tr>
+<td>homophobia</td>
+<td>excessively homophobic remarks. That level of language is not allowed on the server</td>
+</tr>
+<tr>
+<td>toxic</td>
+<td>toxicity, take a step back and calm down. Please review our rules on discord.io/trig</td>
+</tr>
+<tr>
+<td>toxicity</td>
+<td>toxicity, take a step back and calm down. Please review our rules on discord.io/trig</td>
+</tr>
+<tr>
+<td>newsl</td>
+<td>losing your SL. Please figure out who would like to lead the squad. Don't pass it randomly</td>
+</tr>
+<tr>
+<td>hacking/cheating</td>
+<td>Cheating. Player has been removed for using third party assistance</td>
+</tr>
+</tbody>
+</table>
+<h1 id="pre-made-broadcasts-typed-into-admin-chat">Pre-made broadcasts (typed into admin chat)<a class="headerlink" href="#pre-made-broadcasts-typed-into-admin-chat" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Message</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>!slkit</td>
+<td>Squads containing a majority of infantry roles must be led by an infantry SL kit</td>
+</tr>
+<tr>
+<td>!music</td>
+<td>Please do not spam music in comms - this is considered mic spamming and can result in admin action against you</td>
+</tr>
+<tr>
+<td>!spam</td>
+<td>Please do not spam in comms - this can result in admin action against you</td>
+</tr>
+<tr>
+<td>!seeding</td>
+<td>Displays a pre-formatted seeding message broadcast</td>
+</tr>
+<tr>
+<td>!live</td>
+<td>Displays a pre-formatted live message broadcast</td>
+</tr>
+<tr>
+<td>!discord</td>
+<td>Broadcast the TT discord information to the server</td>
+</tr>
+<tr>
+<td>!whitelist</td>
+<td>Broadcast the TT whitelist information to the server</td>
+</tr>
+<tr>
+<td>!allchat</td>
+<td>Displays a pre-formatted message telling all chat to stop</td>
+</tr>
+<tr>
+<td>!advertise</td>
+<td>We do not allow advertising websites, streams or recruiting on our server. Please keep this off our server. Thank you</td>
+</tr>
+<tr>
+<td>!appeal</td>
+<td>Please bring all arguments, appeals and issues with admin action to discord and keep it out of in-game chat. We will gladly deal with it there and welcome constructive mature feedback. discord.io/trig</td>
+</tr>
+<tr>
+<td>!teamwork</td>
+<td>Communicate and coordinate with your teammates and fellow SLs. Teamwork is required on this server and will be enforced if necessary</td>
+</tr>
+<tr>
+<td>!balance</td>
+<td>We will be balancing the teams at the beginning of the next round to fix balance issues. We take server balance seriously at TT</td>
+</tr>
+<tr>
+<td>!comms</td>
+<td>All players must be able and willing to communicate in some way(voice or text). SLs must be responsive and communicate in the SL channel</td>
+</tr>
+<tr>
+<td>!solo</td>
+<td>Do not solo vehicles that require a crewman kit. Never leave main without a gunner. If you find yourself soloing, return to the main base</td>
+</tr>
+<tr>
+<td>!ramming</td>
+<td>Intentionally ramming enemy helicopters is prohibited</td>
+</tr>
+<tr>
+<td>!teamkilling</td>
+<td>Apologize for ALL TK's in ALL CHAT or action will be taken</td>
+</tr>
+<tr>
+<td>!report</td>
+<td>Please report any troublemaker or rule breaker with !admin Their name and details of what’s happening. This will allow the admins to deal with them</td>
+</tr>
+<tr>
+<td>!feedback</td>
+<td>Please post constructive feedback and concerns about the TT server and any issues you have had @ discord.gg/TACTRIG</td>
+</tr>
+<tr>
+<td>!baiting</td>
+<td>Creating a squad to pass SL off to someone else is against the rules. This is considered squad baiting/seeding and can result in removal</td>
+</tr>
+<tr>
+<td>!language</td>
+<td>Do not use bigoted language on this server. More info @ discord.gg/TACTRIG</td>
+</tr>
+<tr>
+<td>!sl</td>
+<td>SLs must actively lead their squads and work with the team. They should primarily have a SL kit and actively communicate. Squads without proper SLs may be disbanded</td>
+</tr>
+</tbody>
+</table>
+<h1 id="custom-map-vote-plugin">Custom Map Vote Plugin<a class="headerlink" href="#custom-map-vote-plugin" title="Permanent link">&para;</a></h1>
+<p>OWI’s voting allows blueberries to choose wildly unbalanced matchups, degrading players’ experiences. To combat this, TT implemented an overhauled voting system that uses javascript commands. Here’s how it works and how to use it.</p>
+<h1 id="server-admin-console-commands">Server Admin Console Commands<a class="headerlink" href="#server-admin-console-commands" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>KEEP USE OF THESE MINIMAL. ONLY USE THESE IF THE OTHER SERVICES GO DOWN OR DON’T WORK</p>
+</div>
+<p>See <a href="https://squad.gamepedia.com/Server_Administration#Admin_Console_Commands">Gamepedia's Reference for Server Administration Commands</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.com/invite/TACTRIG" target="_blank" rel="noopener" title="discord.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
